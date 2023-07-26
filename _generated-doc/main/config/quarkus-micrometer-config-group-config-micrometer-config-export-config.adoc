@@ -10,7 +10,23 @@ h|[[quarkus-micrometer-config-group-config-micrometer-config-export-config_confi
 h|Type
 h|Default
 
+a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.get-enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.get-enabled[quarkus.micrometer.export.json.get-enabled]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_JSON_GET_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_MICROMETER_EXPORT_JSON_GET_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.enabled[quarkus.micrometer.export.json.enabled]`
+
 
 [.description]
 --
@@ -28,6 +44,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.path]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.path[quarkus.micrometer.export.json.path]`
 
+
 [.description]
 --
 The path for the JSON metrics endpoint. The default value is `metrics`. By default, this value will be resolved as a path relative to `$++{++quarkus.http.non-application-root-path++}++`. If the management interface is enabled, the value will be resolved as a path relative to `$++{++quarkus.management.root-path++}++`.
@@ -43,6 +60,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.buffer-length]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.buffer-length[quarkus.micrometer.export.json.buffer-length]`
+
 
 [.description]
 --
@@ -60,6 +78,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.expiry]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.expiry[quarkus.micrometer.export.json.expiry]`
 
+
 [.description]
 --
 Statistics like max, percentiles, and histogram counts decay over time to give greater weight to recent samples. Samples are accumulated to such statistics in ring buffers which rotate after this expiry, with a particular buffer length.
@@ -75,7 +94,23 @@ endif::add-copy-button-to-env-var[]
 |`P3D`
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.get-enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.get-enabled[quarkus.micrometer.export.prometheus.get-enabled]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_GET_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_GET_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.enabled[quarkus.micrometer.export.prometheus.enabled]`
+
 
 [.description]
 --
@@ -94,6 +129,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.path]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.path[quarkus.micrometer.export.prometheus.path]`
+
 
 [.description]
 --
@@ -120,6 +156,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.default-registry]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.default-registry[quarkus.micrometer.export.prometheus.default-registry]`
+
 
 [.description]
 --

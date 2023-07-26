@@ -13,6 +13,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-add-extension-bomartifactid]]`link:#quarkus-maven-plugin-goal-add-extension-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -21,6 +22,7 @@ a| [[quarkus-maven-plugin-goal-add-extension-bomartifactid]]`link:#quarkus-maven
 
 
 a| [[quarkus-maven-plugin-goal-add-extension-bomgroupid]]`link:#quarkus-maven-plugin-goal-add-extension-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -31,6 +33,7 @@ a| [[quarkus-maven-plugin-goal-add-extension-bomgroupid]]`link:#quarkus-maven-pl
 
 a| [[quarkus-maven-plugin-goal-add-extension-bomversion]]`link:#quarkus-maven-plugin-goal-add-extension-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -39,6 +42,7 @@ a| [[quarkus-maven-plugin-goal-add-extension-bomversion]]`link:#quarkus-maven-pl
 
 
 a| [[quarkus-maven-plugin-goal-add-extension-extension]]`link:#quarkus-maven-plugin-goal-add-extension-extension[extension]`
+
 
 [.description]
 --
@@ -49,6 +53,7 @@ For usability reason, this parameter allows adding a single extension.
 
 a| [[quarkus-maven-plugin-goal-add-extension-extensions]]`link:#quarkus-maven-plugin-goal-add-extension-extensions[extensions]`
 
+
 [.description]
 --
 The list of extensions to be added.
@@ -57,6 +62,7 @@ The list of extensions to be added.
 
 
 a| [[quarkus-maven-plugin-goal-add-extension-project]]`link:#quarkus-maven-plugin-goal-add-extension-project[project]`
+
 
 [.description]
 --
@@ -67,6 +73,7 @@ a| [[quarkus-maven-plugin-goal-add-extension-project]]`link:#quarkus-maven-plugi
 
 a| [[quarkus-maven-plugin-goal-add-extension-reposession]]`link:#quarkus-maven-plugin-goal-add-extension-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -75,6 +82,7 @@ a| [[quarkus-maven-plugin-goal-add-extension-reposession]]`link:#quarkus-maven-p
 
 
 a| [[quarkus-maven-plugin-goal-add-extension-repos]]`link:#quarkus-maven-plugin-goal-add-extension-repos[repos]`
+
 
 [.description]
 --
@@ -98,6 +106,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-add-extensions-bomartifactid]]`link:#quarkus-maven-plugin-goal-add-extensions-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -106,6 +115,7 @@ a| [[quarkus-maven-plugin-goal-add-extensions-bomartifactid]]`link:#quarkus-mave
 
 
 a| [[quarkus-maven-plugin-goal-add-extensions-bomgroupid]]`link:#quarkus-maven-plugin-goal-add-extensions-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -116,6 +126,7 @@ a| [[quarkus-maven-plugin-goal-add-extensions-bomgroupid]]`link:#quarkus-maven-p
 
 a| [[quarkus-maven-plugin-goal-add-extensions-bomversion]]`link:#quarkus-maven-plugin-goal-add-extensions-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -124,6 +135,7 @@ a| [[quarkus-maven-plugin-goal-add-extensions-bomversion]]`link:#quarkus-maven-p
 
 
 a| [[quarkus-maven-plugin-goal-add-extensions-extension]]`link:#quarkus-maven-plugin-goal-add-extensions-extension[extension]`
+
 
 [.description]
 --
@@ -134,6 +146,7 @@ For usability reason, this parameter allows adding a single extension.
 
 a| [[quarkus-maven-plugin-goal-add-extensions-extensions]]`link:#quarkus-maven-plugin-goal-add-extensions-extensions[extensions]`
 
+
 [.description]
 --
 The list of extensions to be added.
@@ -142,6 +155,7 @@ The list of extensions to be added.
 
 
 a| [[quarkus-maven-plugin-goal-add-extensions-project]]`link:#quarkus-maven-plugin-goal-add-extensions-project[project]`
+
 
 [.description]
 --
@@ -152,6 +166,7 @@ a| [[quarkus-maven-plugin-goal-add-extensions-project]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-add-extensions-reposession]]`link:#quarkus-maven-plugin-goal-add-extensions-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -160,6 +175,7 @@ a| [[quarkus-maven-plugin-goal-add-extensions-reposession]]`link:#quarkus-maven-
 
 
 a| [[quarkus-maven-plugin-goal-add-extensions-repos]]`link:#quarkus-maven-plugin-goal-add-extensions-repos[repos]`
+
 
 [.description]
 --
@@ -183,6 +199,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-analyze-call-tree-classname]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-classname[className]`
 
+
 [.description]
 --
 
@@ -192,6 +209,7 @@ a| [[quarkus-maven-plugin-goal-analyze-call-tree-classname]]`link:#quarkus-maven
 
 a| [[quarkus-maven-plugin-goal-analyze-call-tree-methodname]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-methodname[methodName]`
 
+
 [.description]
 --
 
@@ -200,6 +218,7 @@ a| [[quarkus-maven-plugin-goal-analyze-call-tree-methodname]]`link:#quarkus-mave
 
 
 a| [[quarkus-maven-plugin-goal-analyze-call-tree-reportsdir]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-reportsdir[reportsDir]`
+
 
 [.description]
 --
@@ -223,6 +242,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-build-appartifact]]`link:#quarkus-maven-plugin-goal-build-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -230,7 +250,28 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-build-attachrunnerasmainartifact]]`link:#quarkus-maven-plugin-goal-build-attachrunnerasmainartifact[attachRunnerAsMainArtifact]`
+
+
+[.description]
+--
+Whether to replace the original JAR with the Uber runner JAR as the main project artifact
+--|boolean 
+|`false`
+
+
+a| [[quarkus-maven-plugin-goal-build-bootstrapid]]`link:#quarkus-maven-plugin-goal-build-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-build-builddir]]`link:#quarkus-maven-plugin-goal-build-builddir[buildDir]`
+
 
 [.description]
 --
@@ -241,6 +282,7 @@ a| [[quarkus-maven-plugin-goal-build-builddir]]`link:#quarkus-maven-plugin-goal-
 
 a| [[quarkus-maven-plugin-goal-build-builddirectory]]`link:#quarkus-maven-plugin-goal-build-builddirectory[buildDirectory]`
 
+
 [.description]
 --
 
@@ -249,6 +291,7 @@ a| [[quarkus-maven-plugin-goal-build-builddirectory]]`link:#quarkus-maven-plugin
 
 
 a| [[quarkus-maven-plugin-goal-build-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-build-closebootstrappedapp[closeBootstrappedApp]`
+
 
 [.description]
 --
@@ -259,6 +302,7 @@ Whether to close the bootstrapped applications after the execution
 
 a| [[quarkus-maven-plugin-goal-build-finalname]]`link:#quarkus-maven-plugin-goal-build-finalname[finalName]`
 
+
 [.description]
 --
 
@@ -267,6 +311,7 @@ a| [[quarkus-maven-plugin-goal-build-finalname]]`link:#quarkus-maven-plugin-goal
 
 
 a| [[quarkus-maven-plugin-goal-build-generatedsourcesdirectory]]`link:#quarkus-maven-plugin-goal-build-generatedsourcesdirectory[generatedSourcesDirectory]`
+
 
 [.description]
 --
@@ -277,6 +322,7 @@ The directory for generated source files.
 
 a| [[quarkus-maven-plugin-goal-build-ignoredentries]]`link:#quarkus-maven-plugin-goal-build-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -285,6 +331,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-build-manifestentries]]`link:#quarkus-maven-plugin-goal-build-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -295,6 +342,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-build-manifestsections]]`link:#quarkus-maven-plugin-goal-build-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -303,6 +351,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-build-mojoexecution]]`link:#quarkus-maven-plugin-goal-build-mojoexecution[mojoExecution]`
+
 
 [.description]
 --
@@ -313,6 +362,7 @@ The context of the execution of the plugin.
 
 a| [[quarkus-maven-plugin-goal-build-pluginrepos]]`link:#quarkus-maven-plugin-goal-build-pluginrepos[pluginRepos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of plugins and their dependencies.
@@ -321,6 +371,7 @@ The project's remote repositories to use for the resolution of plugins and their
 
 
 a| [[quarkus-maven-plugin-goal-build-project]]`link:#quarkus-maven-plugin-goal-build-project[project]`
+
 
 [.description]
 --
@@ -331,6 +382,7 @@ a| [[quarkus-maven-plugin-goal-build-project]]`link:#quarkus-maven-plugin-goal-b
 
 a| [[quarkus-maven-plugin-goal-build-properties]]`link:#quarkus-maven-plugin-goal-build-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -339,6 +391,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-build-reposession]]`link:#quarkus-maven-plugin-goal-build-reposession[repoSession]`
+
 
 [.description]
 --
@@ -349,6 +402,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-build-repos]]`link:#quarkus-maven-plugin-goal-build-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -357,6 +411,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 
 a| [[quarkus-maven-plugin-goal-build-session]]`link:#quarkus-maven-plugin-goal-build-session[session]`
+
 
 [.description]
 --
@@ -367,6 +422,7 @@ a| [[quarkus-maven-plugin-goal-build-session]]`link:#quarkus-maven-plugin-goal-b
 
 a| [[quarkus-maven-plugin-goal-build-skip]]`link:#quarkus-maven-plugin-goal-build-skip[skip]`
 
+
 [.description]
 --
 Skips the execution of this mojo
@@ -376,14 +432,16 @@ Skips the execution of this mojo
 
 a| [[quarkus-maven-plugin-goal-build-skiporiginaljarrename]]`link:#quarkus-maven-plugin-goal-build-skiporiginaljarrename[skipOriginalJarRename]`
 
+
 [.description]
 --
-
+When the building an Uber JAR, the default JAR is renamed by adding .original suffix. Enabling this property will disable the renaming of the original JAR.
 --|boolean 
 |`false`
 
 
 a| [[quarkus-maven-plugin-goal-build-systemproperties]]`link:#quarkus-maven-plugin-goal-build-systemproperties[systemProperties]`
+
 
 [.description]
 --
@@ -407,6 +465,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-create-appconfig]]`link:#quarkus-maven-plugin-goal-create-appconfig[appConfig]`
 
+
 [.description]
 --
 
@@ -415,6 +474,7 @@ a| [[quarkus-maven-plugin-goal-create-appconfig]]`link:#quarkus-maven-plugin-goa
 
 
 a| [[quarkus-maven-plugin-goal-create-bomartifactid]]`link:#quarkus-maven-plugin-goal-create-bomartifactid[bomArtifactId]`
+
 
 [.description]
 --
@@ -425,6 +485,7 @@ Artifact ID of the target platform BOM
 
 a| [[quarkus-maven-plugin-goal-create-bomgroupid]]`link:#quarkus-maven-plugin-goal-create-bomgroupid[bomGroupId]`
 
+
 [.description]
 --
 Group ID of the target platform BOM
@@ -433,6 +494,7 @@ Group ID of the target platform BOM
 
 
 a| [[quarkus-maven-plugin-goal-create-bomversion]]`link:#quarkus-maven-plugin-goal-create-bomversion[bomVersion]`
+
 
 [.description]
 --
@@ -443,6 +505,7 @@ Version of the target platform BOM
 
 a| [[quarkus-maven-plugin-goal-create-buildtool]]`link:#quarkus-maven-plugin-goal-create-buildtool[buildTool]`
 
+
 [.description]
 --
 
@@ -451,6 +514,7 @@ a| [[quarkus-maven-plugin-goal-create-buildtool]]`link:#quarkus-maven-plugin-goa
 
 
 a| [[quarkus-maven-plugin-goal-create-classname]]`link:#quarkus-maven-plugin-goal-create-classname[className]`
+
 
 [.description]
 --
@@ -461,6 +525,7 @@ The className will define the generated class names when picking only one of tho
 
 a| [[quarkus-maven-plugin-goal-create-data]]`link:#quarkus-maven-plugin-goal-create-data[data]`
 
+
 [.description]
 --
 
@@ -469,6 +534,7 @@ a| [[quarkus-maven-plugin-goal-create-data]]`link:#quarkus-maven-plugin-goal-cre
 
 
 a| [[quarkus-maven-plugin-goal-create-example]]`link:#quarkus-maven-plugin-goal-create-example[example]`
+
 
 [.description]
 --
@@ -479,6 +545,7 @@ a| [[quarkus-maven-plugin-goal-create-example]]`link:#quarkus-maven-plugin-goal-
 
 a| [[quarkus-maven-plugin-goal-create-extensions]]`link:#quarkus-maven-plugin-goal-create-extensions[extensions]`
 
+
 [.description]
 --
 
@@ -487,6 +554,7 @@ a| [[quarkus-maven-plugin-goal-create-extensions]]`link:#quarkus-maven-plugin-go
 
 
 a| [[quarkus-maven-plugin-goal-create-javaversion]]`link:#quarkus-maven-plugin-goal-create-javaversion[javaVersion]`
+
 
 [.description]
 --
@@ -497,6 +565,7 @@ a| [[quarkus-maven-plugin-goal-create-javaversion]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-create-nocode]]`link:#quarkus-maven-plugin-goal-create-nocode[noCode]`
 
+
 [.description]
 --
 When true, do not include any code in the generated Quarkus project.
@@ -505,6 +574,7 @@ When true, do not include any code in the generated Quarkus project.
 
 
 a| [[quarkus-maven-plugin-goal-create-outputdirectory]]`link:#quarkus-maven-plugin-goal-create-outputdirectory[outputDirectory]`
+
 
 [.description]
 --
@@ -515,6 +585,7 @@ a| [[quarkus-maven-plugin-goal-create-outputdirectory]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-create-packagename]]`link:#quarkus-maven-plugin-goal-create-packagename[packageName]`
 
+
 [.description]
 --
 Set the package name of the generated classes. If not set, projectGroupId will be used as packageName packageName
@@ -523,6 +594,7 @@ Set the package name of the generated classes. If not set, projectGroupId will b
 
 
 a| [[quarkus-maven-plugin-goal-create-path]]`link:#quarkus-maven-plugin-goal-create-path[path]`
+
 
 [.description]
 --
@@ -533,6 +605,7 @@ The path will define the REST path of the generated code when picking only one o
 
 a| [[quarkus-maven-plugin-goal-create-project]]`link:#quarkus-maven-plugin-goal-create-project[project]`
 
+
 [.description]
 --
 
@@ -541,6 +614,7 @@ a| [[quarkus-maven-plugin-goal-create-project]]`link:#quarkus-maven-plugin-goal-
 
 
 a| [[quarkus-maven-plugin-goal-create-projectartifactid]]`link:#quarkus-maven-plugin-goal-create-projectartifactid[projectArtifactId]`
+
 
 [.description]
 --
@@ -551,6 +625,7 @@ a| [[quarkus-maven-plugin-goal-create-projectartifactid]]`link:#quarkus-maven-pl
 
 a| [[quarkus-maven-plugin-goal-create-projectdescription]]`link:#quarkus-maven-plugin-goal-create-projectdescription[projectDescription]`
 
+
 [.description]
 --
 
@@ -559,6 +634,7 @@ a| [[quarkus-maven-plugin-goal-create-projectdescription]]`link:#quarkus-maven-p
 
 
 a| [[quarkus-maven-plugin-goal-create-projectgroupid]]`link:#quarkus-maven-plugin-goal-create-projectgroupid[projectGroupId]`
+
 
 [.description]
 --
@@ -569,6 +645,7 @@ a| [[quarkus-maven-plugin-goal-create-projectgroupid]]`link:#quarkus-maven-plugi
 
 a| [[quarkus-maven-plugin-goal-create-projectname]]`link:#quarkus-maven-plugin-goal-create-projectname[projectName]`
 
+
 [.description]
 --
 
@@ -577,6 +654,7 @@ a| [[quarkus-maven-plugin-goal-create-projectname]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-create-projectversion]]`link:#quarkus-maven-plugin-goal-create-projectversion[projectVersion]`
+
 
 [.description]
 --
@@ -587,6 +665,7 @@ a| [[quarkus-maven-plugin-goal-create-projectversion]]`link:#quarkus-maven-plugi
 
 a| [[quarkus-maven-plugin-goal-create-reposession]]`link:#quarkus-maven-plugin-goal-create-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -596,6 +675,7 @@ a| [[quarkus-maven-plugin-goal-create-reposession]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-create-repos]]`link:#quarkus-maven-plugin-goal-create-repos[repos]`
 
+
 [.description]
 --
 
@@ -604,6 +684,7 @@ a| [[quarkus-maven-plugin-goal-create-repos]]`link:#quarkus-maven-plugin-goal-cr
 
 
 a| [[quarkus-maven-plugin-goal-create-session]]`link:#quarkus-maven-plugin-goal-create-session[session]`
+
 
 [.description]
 --
@@ -627,6 +708,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-create-extension-artifactid]]`link:#quarkus-maven-plugin-goal-create-extension-artifactid[artifactId]`
 
+
 [.description]
 --
 Used to detect legacy command usage and display an error
@@ -635,6 +717,7 @@ Used to detect legacy command usage and display an error
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-basedir]]`link:#quarkus-maven-plugin-goal-create-extension-basedir[basedir]`
+
 
 [.description]
 --
@@ -645,6 +728,7 @@ Directory where the changes should be performed. Default: the current directory 
 
 a| [[quarkus-maven-plugin-goal-create-extension-extensiondescription]]`link:#quarkus-maven-plugin-goal-create-extension-extensiondescription[extensionDescription]`
 
+
 [.description]
 --
 The extensionDescription of the runtime module. This description is used on https://code.quarkus.io/.
@@ -653,6 +737,7 @@ The extensionDescription of the runtime module. This description is used on http
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-extensionid]]`link:#quarkus-maven-plugin-goal-create-extension-extensionid[extensionId]`
+
 
 [.description]
 --
@@ -663,6 +748,7 @@ extensionId of this extension (REQUIRED). It will be used to generate the differ
 
 a| [[quarkus-maven-plugin-goal-create-extension-extensionname]]`link:#quarkus-maven-plugin-goal-create-extension-extensionname[extensionName]`
 
+
 [.description]
 --
 The extensionName of the runtime module. The extensionNames of the extension parent and deployment modules will be based on this name too. Default: the formatted extensionId
@@ -671,6 +757,7 @@ The extensionName of the runtime module. The extensionNames of the extension par
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-groupid]]`link:#quarkus-maven-plugin-goal-create-extension-groupid[groupId]`
+
 
 [.description]
 --
@@ -681,6 +768,7 @@ The groupId for the newly created Maven modules (REQUIRED - INHERITED IN QUARKUS
 
 a| [[quarkus-maven-plugin-goal-create-extension-namespaceid]]`link:#quarkus-maven-plugin-goal-create-extension-namespaceid[namespaceId]`
 
+
 [.description]
 --
 A prefix common to all extension artifactIds in the current source tree. Default: "quarkus-" in quarkus Quarkus Core and Quarkiverse else ""
@@ -689,6 +777,7 @@ A prefix common to all extension artifactIds in the current source tree. Default
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-namespacename]]`link:#quarkus-maven-plugin-goal-create-extension-namespacename[namespaceName]`
+
 
 [.description]
 --
@@ -699,6 +788,7 @@ A prefix common to all extension names in the current source tree. Default: "qua
 
 a| [[quarkus-maven-plugin-goal-create-extension-packagename]]`link:#quarkus-maven-plugin-goal-create-extension-packagename[packageName]`
 
+
 [.description]
 --
 Base package under which classes should be created in Runtime and Deployment modules. Default: auto-generated out of groupId, namespaceId and extensionId
@@ -707,6 +797,7 @@ Base package under which classes should be created in Runtime and Deployment mod
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-project]]`link:#quarkus-maven-plugin-goal-create-extension-project[project]`
+
 
 [.description]
 --
@@ -717,6 +808,7 @@ a| [[quarkus-maven-plugin-goal-create-extension-project]]`link:#quarkus-maven-pl
 
 a| [[quarkus-maven-plugin-goal-create-extension-quarkusbomartifactid]]`link:#quarkus-maven-plugin-goal-create-extension-quarkusbomartifactid[quarkusBomArtifactId]`
 
+
 [.description]
 --
 The artifactId of the Quarkus platform BOM. Default: io.quarkus.devtools.commands.CreateExtension.DEFAULT_BOM_ARTIFACT_ID
@@ -725,6 +817,7 @@ The artifactId of the Quarkus platform BOM. Default: io.quarkus.devtools.command
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-quarkusbomgroupid]]`link:#quarkus-maven-plugin-goal-create-extension-quarkusbomgroupid[quarkusBomGroupId]`
+
 
 [.description]
 --
@@ -735,6 +828,7 @@ The groupId of the Quarkus platform BOM. Default: io.quarkus.devtools.commands.C
 
 a| [[quarkus-maven-plugin-goal-create-extension-quarkusbomversion]]`link:#quarkus-maven-plugin-goal-create-extension-quarkusbomversion[quarkusBomVersion]`
 
+
 [.description]
 --
 The version of the Quarkus platform BOM. Default: io.quarkus.devtools.commands.CreateExtension.DEFAULT_BOM_VERSION
@@ -743,6 +837,7 @@ The version of the Quarkus platform BOM. Default: io.quarkus.devtools.commands.C
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-quarkusversion]]`link:#quarkus-maven-plugin-goal-create-extension-quarkusversion[quarkusVersion]`
+
 
 [.description]
 --
@@ -753,6 +848,7 @@ Quarkus version the newly created extension should depend on (REQUIRED - INHERIT
 
 a| [[quarkus-maven-plugin-goal-create-extension-reposession]]`link:#quarkus-maven-plugin-goal-create-extension-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -761,6 +857,7 @@ a| [[quarkus-maven-plugin-goal-create-extension-reposession]]`link:#quarkus-mave
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-repos]]`link:#quarkus-maven-plugin-goal-create-extension-repos[repos]`
+
 
 [.description]
 --
@@ -771,6 +868,7 @@ a| [[quarkus-maven-plugin-goal-create-extension-repos]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-create-extension-session]]`link:#quarkus-maven-plugin-goal-create-extension-session[session]`
 
+
 [.description]
 --
 
@@ -779,6 +877,7 @@ a| [[quarkus-maven-plugin-goal-create-extension-session]]`link:#quarkus-maven-pl
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-version]]`link:#quarkus-maven-plugin-goal-create-extension-version[version]`
+
 
 [.description]
 --
@@ -789,6 +888,7 @@ The version for the newly created Maven modules. Default: automatic in Quarkus C
 
 a| [[quarkus-maven-plugin-goal-create-extension-withcodestart]]`link:#quarkus-maven-plugin-goal-create-extension-withcodestart[withCodestart]`
 
+
 [.description]
 --
 Indicates whether to generate an extension codestart
@@ -797,6 +897,7 @@ Indicates whether to generate an extension codestart
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-withoutdevmodetest]]`link:#quarkus-maven-plugin-goal-create-extension-withoutdevmodetest[withoutDevModeTest]`
+
 
 [.description]
 --
@@ -807,6 +908,7 @@ Indicates whether to generate a devmode test for the extension
 
 a| [[quarkus-maven-plugin-goal-create-extension-withoutintegrationtests]]`link:#quarkus-maven-plugin-goal-create-extension-withoutintegrationtests[withoutIntegrationTests]`
 
+
 [.description]
 --
 Indicates whether to generate an integration tests for the extension
@@ -816,6 +918,7 @@ Indicates whether to generate an integration tests for the extension
 
 a| [[quarkus-maven-plugin-goal-create-extension-withouttests]]`link:#quarkus-maven-plugin-goal-create-extension-withouttests[withoutTests]`
 
+
 [.description]
 --
 Indicates whether to generate any tests for the extension (same as -DwithoutUnitTest -DwithoutIntegrationTest -DwithoutDevModeTest)
@@ -824,6 +927,7 @@ Indicates whether to generate any tests for the extension (same as -DwithoutUnit
 
 
 a| [[quarkus-maven-plugin-goal-create-extension-withoutunittest]]`link:#quarkus-maven-plugin-goal-create-extension-withoutunittest[withoutUnitTest]`
+
 
 [.description]
 --
@@ -845,6 +949,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-create-jbang-bomartifactid]]`link:#quarkus-maven-plugin-goal-create-jbang-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 Artifact ID of the target platform BOM
@@ -853,6 +958,7 @@ Artifact ID of the target platform BOM
 
 
 a| [[quarkus-maven-plugin-goal-create-jbang-bomgroupid]]`link:#quarkus-maven-plugin-goal-create-jbang-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -863,6 +969,7 @@ Group ID of the target platform BOM
 
 a| [[quarkus-maven-plugin-goal-create-jbang-bomversion]]`link:#quarkus-maven-plugin-goal-create-jbang-bomversion[bomVersion]`
 
+
 [.description]
 --
 Version of the target platform BOM
@@ -871,6 +978,7 @@ Version of the target platform BOM
 
 
 a| [[quarkus-maven-plugin-goal-create-jbang-extensions]]`link:#quarkus-maven-plugin-goal-create-jbang-extensions[extensions]`
+
 
 [.description]
 --
@@ -881,6 +989,7 @@ a| [[quarkus-maven-plugin-goal-create-jbang-extensions]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-create-jbang-javaversion]]`link:#quarkus-maven-plugin-goal-create-jbang-javaversion[javaVersion]`
 
+
 [.description]
 --
 
@@ -889,6 +998,7 @@ a| [[quarkus-maven-plugin-goal-create-jbang-javaversion]]`link:#quarkus-maven-pl
 
 
 a| [[quarkus-maven-plugin-goal-create-jbang-nojbangwrapper]]`link:#quarkus-maven-plugin-goal-create-jbang-nojbangwrapper[noJBangWrapper]`
+
 
 [.description]
 --
@@ -899,6 +1009,7 @@ a| [[quarkus-maven-plugin-goal-create-jbang-nojbangwrapper]]`link:#quarkus-maven
 
 a| [[quarkus-maven-plugin-goal-create-jbang-outputdirectory]]`link:#quarkus-maven-plugin-goal-create-jbang-outputdirectory[outputDirectory]`
 
+
 [.description]
 --
 
@@ -908,6 +1019,7 @@ a| [[quarkus-maven-plugin-goal-create-jbang-outputdirectory]]`link:#quarkus-mave
 
 a| [[quarkus-maven-plugin-goal-create-jbang-reposession]]`link:#quarkus-maven-plugin-goal-create-jbang-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -916,6 +1028,7 @@ a| [[quarkus-maven-plugin-goal-create-jbang-reposession]]`link:#quarkus-maven-pl
 
 
 a| [[quarkus-maven-plugin-goal-create-jbang-repos]]`link:#quarkus-maven-plugin-goal-create-jbang-repos[repos]`
+
 
 [.description]
 --
@@ -939,6 +1052,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-dependency-tree-appendoutput]]`link:#quarkus-maven-plugin-goal-dependency-tree-appendoutput[appendOutput]`
 
+
 [.description]
 --
 Whether to append outputs into the output file or overwrite it.
@@ -947,6 +1061,7 @@ Whether to append outputs into the output file or overwrite it.
 
 
 a| [[quarkus-maven-plugin-goal-dependency-tree-mode]]`link:#quarkus-maven-plugin-goal-dependency-tree-mode[mode]`
+
 
 [.description]
 --
@@ -957,6 +1072,7 @@ Target launch mode corresponding to io.quarkus.runtime.LaunchMode for which the 
 
 a| [[quarkus-maven-plugin-goal-dependency-tree-outputfile]]`link:#quarkus-maven-plugin-goal-dependency-tree-outputfile[outputFile]`
 
+
 [.description]
 --
 If specified, this parameter will cause the dependency tree to be written to the path specified, instead of writing to the console.
@@ -966,6 +1082,7 @@ If specified, this parameter will cause the dependency tree to be written to the
 
 a| [[quarkus-maven-plugin-goal-dependency-tree-project]]`link:#quarkus-maven-plugin-goal-dependency-tree-project[project]`
 
+
 [.description]
 --
 
@@ -974,6 +1091,7 @@ a| [[quarkus-maven-plugin-goal-dependency-tree-project]]`link:#quarkus-maven-plu
 
 
 a| [[quarkus-maven-plugin-goal-dependency-tree-repos]]`link:#quarkus-maven-plugin-goal-dependency-tree-repos[repos]`
+
 
 [.description]
 --
@@ -995,6 +1113,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-deploy-appartifact]]`link:#quarkus-maven-plugin-goal-deploy-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -1002,7 +1121,28 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-deploy-attachrunnerasmainartifact]]`link:#quarkus-maven-plugin-goal-deploy-attachrunnerasmainartifact[attachRunnerAsMainArtifact]`
+
+
+[.description]
+--
+Whether to replace the original JAR with the Uber runner JAR as the main project artifact
+--|boolean 
+|`false`
+
+
+a| [[quarkus-maven-plugin-goal-deploy-bootstrapid]]`link:#quarkus-maven-plugin-goal-deploy-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-deploy-builddir]]`link:#quarkus-maven-plugin-goal-deploy-builddir[buildDir]`
+
 
 [.description]
 --
@@ -1013,6 +1153,7 @@ a| [[quarkus-maven-plugin-goal-deploy-builddir]]`link:#quarkus-maven-plugin-goal
 
 a| [[quarkus-maven-plugin-goal-deploy-builddirectory]]`link:#quarkus-maven-plugin-goal-deploy-builddirectory[buildDirectory]`
 
+
 [.description]
 --
 
@@ -1021,6 +1162,7 @@ a| [[quarkus-maven-plugin-goal-deploy-builddirectory]]`link:#quarkus-maven-plugi
 
 
 a| [[quarkus-maven-plugin-goal-deploy-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-deploy-closebootstrappedapp[closeBootstrappedApp]`
+
 
 [.description]
 --
@@ -1031,6 +1173,7 @@ Whether to close the bootstrapped applications after the execution
 
 a| [[quarkus-maven-plugin-goal-deploy-dryrun]]`link:#quarkus-maven-plugin-goal-deploy-dryrun[dryRun]`
 
+
 [.description]
 --
 
@@ -1039,6 +1182,7 @@ a| [[quarkus-maven-plugin-goal-deploy-dryrun]]`link:#quarkus-maven-plugin-goal-d
 
 
 a| [[quarkus-maven-plugin-goal-deploy-finalname]]`link:#quarkus-maven-plugin-goal-deploy-finalname[finalName]`
+
 
 [.description]
 --
@@ -1049,6 +1193,7 @@ a| [[quarkus-maven-plugin-goal-deploy-finalname]]`link:#quarkus-maven-plugin-goa
 
 a| [[quarkus-maven-plugin-goal-deploy-generatedsourcesdirectory]]`link:#quarkus-maven-plugin-goal-deploy-generatedsourcesdirectory[generatedSourcesDirectory]`
 
+
 [.description]
 --
 The directory for generated source files.
@@ -1057,6 +1202,7 @@ The directory for generated source files.
 
 
 a| [[quarkus-maven-plugin-goal-deploy-ignoredentries]]`link:#quarkus-maven-plugin-goal-deploy-ignoredentries[ignoredEntries]`
+
 
 [.description]
 --
@@ -1067,6 +1213,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 a| [[quarkus-maven-plugin-goal-deploy-imagebuild]]`link:#quarkus-maven-plugin-goal-deploy-imagebuild[imageBuild]`
 
+
 [.description]
 --
 
@@ -1075,6 +1222,7 @@ a| [[quarkus-maven-plugin-goal-deploy-imagebuild]]`link:#quarkus-maven-plugin-go
 
 
 a| [[quarkus-maven-plugin-goal-deploy-imagebuilder]]`link:#quarkus-maven-plugin-goal-deploy-imagebuilder[imageBuilder]`
+
 
 [.description]
 --
@@ -1085,6 +1233,7 @@ a| [[quarkus-maven-plugin-goal-deploy-imagebuilder]]`link:#quarkus-maven-plugin-
 
 a| [[quarkus-maven-plugin-goal-deploy-manifestentries]]`link:#quarkus-maven-plugin-goal-deploy-manifestentries[manifestEntries]`
 
+
 [.description]
 --
 The list of main manifest attributes
@@ -1093,6 +1242,7 @@ The list of main manifest attributes
 
 
 a| [[quarkus-maven-plugin-goal-deploy-manifestsections]]`link:#quarkus-maven-plugin-goal-deploy-manifestsections[manifestSections]`
+
 
 [.description]
 --
@@ -1103,6 +1253,7 @@ The list of manifest sections
 
 a| [[quarkus-maven-plugin-goal-deploy-mojoexecution]]`link:#quarkus-maven-plugin-goal-deploy-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 The context of the execution of the plugin.
@@ -1111,6 +1262,7 @@ The context of the execution of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-deploy-pluginrepos]]`link:#quarkus-maven-plugin-goal-deploy-pluginrepos[pluginRepos]`
+
 
 [.description]
 --
@@ -1121,6 +1273,7 @@ The project's remote repositories to use for the resolution of plugins and their
 
 a| [[quarkus-maven-plugin-goal-deploy-project]]`link:#quarkus-maven-plugin-goal-deploy-project[project]`
 
+
 [.description]
 --
 
@@ -1129,6 +1282,7 @@ a| [[quarkus-maven-plugin-goal-deploy-project]]`link:#quarkus-maven-plugin-goal-
 
 
 a| [[quarkus-maven-plugin-goal-deploy-properties]]`link:#quarkus-maven-plugin-goal-deploy-properties[properties]`
+
 
 [.description]
 --
@@ -1139,6 +1293,7 @@ The properties of the plugin.
 
 a| [[quarkus-maven-plugin-goal-deploy-reposession]]`link:#quarkus-maven-plugin-goal-deploy-reposession[repoSession]`
 
+
 [.description]
 --
 The current repository/network configuration of Maven.
@@ -1147,6 +1302,7 @@ The current repository/network configuration of Maven.
 
 
 a| [[quarkus-maven-plugin-goal-deploy-repos]]`link:#quarkus-maven-plugin-goal-deploy-repos[repos]`
+
 
 [.description]
 --
@@ -1157,6 +1313,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 a| [[quarkus-maven-plugin-goal-deploy-session]]`link:#quarkus-maven-plugin-goal-deploy-session[session]`
 
+
 [.description]
 --
 
@@ -1165,6 +1322,7 @@ a| [[quarkus-maven-plugin-goal-deploy-session]]`link:#quarkus-maven-plugin-goal-
 
 
 a| [[quarkus-maven-plugin-goal-deploy-skip]]`link:#quarkus-maven-plugin-goal-deploy-skip[skip]`
+
 
 [.description]
 --
@@ -1175,14 +1333,16 @@ Skips the execution of this mojo
 
 a| [[quarkus-maven-plugin-goal-deploy-skiporiginaljarrename]]`link:#quarkus-maven-plugin-goal-deploy-skiporiginaljarrename[skipOriginalJarRename]`
 
+
 [.description]
 --
-
+When the building an Uber JAR, the default JAR is renamed by adding .original suffix. Enabling this property will disable the renaming of the original JAR.
 --|boolean 
 |`false`
 
 
 a| [[quarkus-maven-plugin-goal-deploy-systemproperties]]`link:#quarkus-maven-plugin-goal-deploy-systemproperties[systemProperties]`
+
 
 [.description]
 --
@@ -1206,6 +1366,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-dev-argsstring]]`link:#quarkus-maven-plugin-goal-dev-argsstring[argsString]`
 
+
 [.description]
 --
 
@@ -1214,6 +1375,7 @@ a| [[quarkus-maven-plugin-goal-dev-argsstring]]`link:#quarkus-maven-plugin-goal-
 
 
 a| [[quarkus-maven-plugin-goal-dev-builddir]]`link:#quarkus-maven-plugin-goal-dev-builddir[buildDir]`
+
 
 [.description]
 --
@@ -1224,6 +1386,7 @@ a| [[quarkus-maven-plugin-goal-dev-builddir]]`link:#quarkus-maven-plugin-goal-de
 
 a| [[quarkus-maven-plugin-goal-dev-compilerargs]]`link:#quarkus-maven-plugin-goal-dev-compilerargs[compilerArgs]`
 
+
 [.description]
 --
 Additional parameters to pass to javac when recompiling changed source files.
@@ -1232,6 +1395,7 @@ Additional parameters to pass to javac when recompiling changed source files.
 
 
 a| [[quarkus-maven-plugin-goal-dev-compileroptions]]`link:#quarkus-maven-plugin-goal-dev-compileroptions[compilerOptions]`
+
 
 [.description]
 --
@@ -1242,6 +1406,7 @@ Additional compiler arguments
 
 a| [[quarkus-maven-plugin-goal-dev-debug]]`link:#quarkus-maven-plugin-goal-dev-debug[debug]`
 
+
 [.description]
 --
 If this server should be started in debug mode. The default is to start in debug mode and listen on port 5005. Whether the JVM is suspended waiting for a debugger to be attached, depends on the value of suspend. debug supports the following options: Value Effect false The JVM is not started in debug mode true The JVM is started in debug mode and will be listening on debugHost:debugPort client The JVM is started in client mode, and will attempt to connect to debugHost:debugPort ++{++port++}++ The JVM is started in debug mode and will be listening on debugHost:++{++port++}++. By default, debugHost has the value "localhost", and debugPort is 5005.
@@ -1250,6 +1415,7 @@ If this server should be started in debug mode. The default is to start in debug
 
 
 a| [[quarkus-maven-plugin-goal-dev-debughost]]`link:#quarkus-maven-plugin-goal-dev-debughost[debugHost]`
+
 
 [.description]
 --
@@ -1260,6 +1426,7 @@ a| [[quarkus-maven-plugin-goal-dev-debughost]]`link:#quarkus-maven-plugin-goal-d
 
 a| [[quarkus-maven-plugin-goal-dev-debugport]]`link:#quarkus-maven-plugin-goal-dev-debugport[debugPort]`
 
+
 [.description]
 --
 
@@ -1268,6 +1435,7 @@ a| [[quarkus-maven-plugin-goal-dev-debugport]]`link:#quarkus-maven-plugin-goal-d
 
 
 a| [[quarkus-maven-plugin-goal-dev-deletedevjar]]`link:#quarkus-maven-plugin-goal-dev-deletedevjar[deleteDevJar]`
+
 
 [.description]
 --
@@ -1278,6 +1446,7 @@ a| [[quarkus-maven-plugin-goal-dev-deletedevjar]]`link:#quarkus-maven-plugin-goa
 
 a| [[quarkus-maven-plugin-goal-dev-enforcebuildgoal]]`link:#quarkus-maven-plugin-goal-dev-enforcebuildgoal[enforceBuildGoal]`
 
+
 [.description]
 --
 Whether to enforce the quarkus-maven-plugin build goal to be configured. By default, a missing build goal is considered an inconsistency (although the build goal is not required technically). In this case a warning will be logged and the application will not be started.
@@ -1286,6 +1455,7 @@ Whether to enforce the quarkus-maven-plugin build goal to be configured. By defa
 
 
 a| [[quarkus-maven-plugin-goal-dev-environmentvariables]]`link:#quarkus-maven-plugin-goal-dev-environmentvariables[environmentVariables]`
+
 
 [.description]
 --
@@ -1296,6 +1466,7 @@ a| [[quarkus-maven-plugin-goal-dev-environmentvariables]]`link:#quarkus-maven-pl
 
 a| [[quarkus-maven-plugin-goal-dev-jvmargs]]`link:#quarkus-maven-plugin-goal-dev-jvmargs[jvmArgs]`
 
+
 [.description]
 --
 
@@ -1304,6 +1475,7 @@ a| [[quarkus-maven-plugin-goal-dev-jvmargs]]`link:#quarkus-maven-plugin-goal-dev
 
 
 a| [[quarkus-maven-plugin-goal-dev-modules]]`link:#quarkus-maven-plugin-goal-dev-modules[modules]`
+
 
 [.description]
 --
@@ -1314,6 +1486,7 @@ Allows configuring the modules to add to the application. The listed modules wil
 
 a| [[quarkus-maven-plugin-goal-dev-mojoexecution]]`link:#quarkus-maven-plugin-goal-dev-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 
@@ -1322,6 +1495,7 @@ a| [[quarkus-maven-plugin-goal-dev-mojoexecution]]`link:#quarkus-maven-plugin-go
 
 
 a| [[quarkus-maven-plugin-goal-dev-nodeps]]`link:#quarkus-maven-plugin-goal-dev-nodeps[noDeps]`
+
 
 [.description]
 --
@@ -1332,6 +1506,7 @@ Whether changes in the projects that appear to be dependencies of the project co
 
 a| [[quarkus-maven-plugin-goal-dev-openjavalang]]`link:#quarkus-maven-plugin-goal-dev-openjavalang[openJavaLang]`
 
+
 [.description]
 --
 
@@ -1340,6 +1515,7 @@ a| [[quarkus-maven-plugin-goal-dev-openjavalang]]`link:#quarkus-maven-plugin-goa
 
 
 a| [[quarkus-maven-plugin-goal-dev-outputdirectory]]`link:#quarkus-maven-plugin-goal-dev-outputdirectory[outputDirectory]`
+
 
 [.description]
 --
@@ -1350,6 +1526,7 @@ The directory for compiled classes.
 
 a| [[quarkus-maven-plugin-goal-dev-pluginrepos]]`link:#quarkus-maven-plugin-goal-dev-pluginrepos[pluginRepos]`
 
+
 [.description]
 --
 
@@ -1358,6 +1535,7 @@ a| [[quarkus-maven-plugin-goal-dev-pluginrepos]]`link:#quarkus-maven-plugin-goal
 
 
 a| [[quarkus-maven-plugin-goal-dev-preventnoverify]]`link:#quarkus-maven-plugin-goal-dev-preventnoverify[preventnoverify]`
+
 
 [.description]
 --
@@ -1368,6 +1546,7 @@ This value is intended to be set to true when some generated bytecode is erroneo
 
 a| [[quarkus-maven-plugin-goal-dev-project]]`link:#quarkus-maven-plugin-goal-dev-project[project]`
 
+
 [.description]
 --
 
@@ -1376,6 +1555,7 @@ a| [[quarkus-maven-plugin-goal-dev-project]]`link:#quarkus-maven-plugin-goal-dev
 
 
 a| [[quarkus-maven-plugin-goal-dev-release]]`link:#quarkus-maven-plugin-goal-dev-release[release]`
+
 
 [.description]
 --
@@ -1386,6 +1566,7 @@ The --release argument to javac.
 
 a| [[quarkus-maven-plugin-goal-dev-reposession]]`link:#quarkus-maven-plugin-goal-dev-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -1394,6 +1575,7 @@ a| [[quarkus-maven-plugin-goal-dev-reposession]]`link:#quarkus-maven-plugin-goal
 
 
 a| [[quarkus-maven-plugin-goal-dev-repos]]`link:#quarkus-maven-plugin-goal-dev-repos[repos]`
+
 
 [.description]
 --
@@ -1404,6 +1586,7 @@ a| [[quarkus-maven-plugin-goal-dev-repos]]`link:#quarkus-maven-plugin-goal-dev-r
 
 a| [[quarkus-maven-plugin-goal-dev-session]]`link:#quarkus-maven-plugin-goal-dev-session[session]`
 
+
 [.description]
 --
 
@@ -1412,6 +1595,7 @@ a| [[quarkus-maven-plugin-goal-dev-session]]`link:#quarkus-maven-plugin-goal-dev
 
 
 a| [[quarkus-maven-plugin-goal-dev-source]]`link:#quarkus-maven-plugin-goal-dev-source[source]`
+
 
 [.description]
 --
@@ -1422,6 +1606,7 @@ The -source argument to javac.
 
 a| [[quarkus-maven-plugin-goal-dev-sourcedir]]`link:#quarkus-maven-plugin-goal-dev-sourcedir[sourceDir]`
 
+
 [.description]
 --
 
@@ -1430,6 +1615,7 @@ a| [[quarkus-maven-plugin-goal-dev-sourcedir]]`link:#quarkus-maven-plugin-goal-d
 
 
 a| [[quarkus-maven-plugin-goal-dev-suspend]]`link:#quarkus-maven-plugin-goal-dev-suspend[suspend]`
+
 
 [.description]
 --
@@ -1440,6 +1626,7 @@ Whether the JVM launch, in debug mode, should be suspended. This parameter is on
 
 a| [[quarkus-maven-plugin-goal-dev-systemproperties]]`link:#quarkus-maven-plugin-goal-dev-systemproperties[systemProperties]`
 
+
 [.description]
 --
 
@@ -1449,6 +1636,7 @@ a| [[quarkus-maven-plugin-goal-dev-systemproperties]]`link:#quarkus-maven-plugin
 
 a| [[quarkus-maven-plugin-goal-dev-target]]`link:#quarkus-maven-plugin-goal-dev-target[target]`
 
+
 [.description]
 --
 The -target argument to javac.
@@ -1456,7 +1644,18 @@ The -target argument to javac.
 |`${maven.compiler.target}`
 
 
+a| [[quarkus-maven-plugin-goal-dev-warnifbuildgoalmissing]]`link:#quarkus-maven-plugin-goal-dev-warnifbuildgoalmissing[warnIfBuildGoalMissing]`
+
+
+[.description]
+--
+
+--|boolean 
+|`false`
+
+
 a| [[quarkus-maven-plugin-goal-dev-workingdir]]`link:#quarkus-maven-plugin-goal-dev-workingdir[workingDir]`
+
 
 [.description]
 --
@@ -1478,6 +1677,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-generate-code-appartifact]]`link:#quarkus-maven-plugin-goal-generate-code-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -1485,7 +1685,18 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-generate-code-bootstrapid]]`link:#quarkus-maven-plugin-goal-generate-code-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-generate-code-builddir]]`link:#quarkus-maven-plugin-goal-generate-code-builddir[buildDir]`
+
 
 [.description]
 --
@@ -1496,6 +1707,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-builddir]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-generate-code-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-generate-code-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -1504,6 +1716,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-finalname]]`link:#quarkus-maven-plugin-goal-generate-code-finalname[finalName]`
+
 
 [.description]
 --
@@ -1514,6 +1727,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-finalname]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-generate-code-ignoredentries]]`link:#quarkus-maven-plugin-goal-generate-code-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -1522,6 +1736,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-manifestentries]]`link:#quarkus-maven-plugin-goal-generate-code-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -1532,6 +1747,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-generate-code-manifestsections]]`link:#quarkus-maven-plugin-goal-generate-code-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -1540,6 +1756,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-mode]]`link:#quarkus-maven-plugin-goal-generate-code-mode[mode]`
+
 
 [.description]
 --
@@ -1550,6 +1767,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-mode]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-generate-code-mojoexecution]]`link:#quarkus-maven-plugin-goal-generate-code-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 The context of the execution of the plugin.
@@ -1558,6 +1776,7 @@ The context of the execution of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-project]]`link:#quarkus-maven-plugin-goal-generate-code-project[project]`
+
 
 [.description]
 --
@@ -1568,6 +1787,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-project]]`link:#quarkus-maven-plugi
 
 a| [[quarkus-maven-plugin-goal-generate-code-properties]]`link:#quarkus-maven-plugin-goal-generate-code-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -1576,6 +1796,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-reposession]]`link:#quarkus-maven-plugin-goal-generate-code-reposession[repoSession]`
+
 
 [.description]
 --
@@ -1586,6 +1807,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-generate-code-repos]]`link:#quarkus-maven-plugin-goal-generate-code-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -1595,6 +1817,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 a| [[quarkus-maven-plugin-goal-generate-code-session]]`link:#quarkus-maven-plugin-goal-generate-code-session[session]`
 
+
 [.description]
 --
 
@@ -1603,6 +1826,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-session]]`link:#quarkus-maven-plugi
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-generate-code-skipsourcegeneration[skipSourceGeneration]`
+
 
 [.description]
 --
@@ -1624,6 +1848,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-appartifact]]`link:#quarkus-maven-plugin-goal-generate-code-tests-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -1631,7 +1856,18 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-generate-code-tests-bootstrapid]]`link:#quarkus-maven-plugin-goal-generate-code-tests-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-generate-code-tests-builddir]]`link:#quarkus-maven-plugin-goal-generate-code-tests-builddir[buildDir]`
+
 
 [.description]
 --
@@ -1642,6 +1878,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-tests-builddir]]`link:#quarkus-mave
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-generate-code-tests-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -1650,6 +1887,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-finalname]]`link:#quarkus-maven-plugin-goal-generate-code-tests-finalname[finalName]`
+
 
 [.description]
 --
@@ -1660,6 +1898,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-tests-finalname]]`link:#quarkus-mav
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-ignoredentries]]`link:#quarkus-maven-plugin-goal-generate-code-tests-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -1668,6 +1907,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-manifestentries]]`link:#quarkus-maven-plugin-goal-generate-code-tests-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -1678,6 +1918,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-manifestsections]]`link:#quarkus-maven-plugin-goal-generate-code-tests-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -1686,6 +1927,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-mode]]`link:#quarkus-maven-plugin-goal-generate-code-tests-mode[mode]`
+
 
 [.description]
 --
@@ -1696,6 +1938,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-tests-mode]]`link:#quarkus-maven-pl
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-mojoexecution]]`link:#quarkus-maven-plugin-goal-generate-code-tests-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 The context of the execution of the plugin.
@@ -1704,6 +1947,7 @@ The context of the execution of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-project]]`link:#quarkus-maven-plugin-goal-generate-code-tests-project[project]`
+
 
 [.description]
 --
@@ -1714,6 +1958,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-tests-project]]`link:#quarkus-maven
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-properties]]`link:#quarkus-maven-plugin-goal-generate-code-tests-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -1722,6 +1967,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-reposession]]`link:#quarkus-maven-plugin-goal-generate-code-tests-reposession[repoSession]`
+
 
 [.description]
 --
@@ -1732,6 +1978,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-repos]]`link:#quarkus-maven-plugin-goal-generate-code-tests-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -1741,6 +1988,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-session]]`link:#quarkus-maven-plugin-goal-generate-code-tests-session[session]`
 
+
 [.description]
 --
 
@@ -1749,6 +1997,7 @@ a| [[quarkus-maven-plugin-goal-generate-code-tests-session]]`link:#quarkus-maven
 
 
 a| [[quarkus-maven-plugin-goal-generate-code-tests-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-generate-code-tests-skipsourcegeneration[skipSourceGeneration]`
+
 
 [.description]
 --
@@ -1772,6 +2021,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-go-offline-mode]]`link:#quarkus-maven-plugin-goal-go-offline-mode[mode]`
 
+
 [.description]
 --
 Target launch mode corresponding to io.quarkus.runtime.LaunchMode for which the dependencies should be resolved. io.quarkus.runtime.LaunchMode.TEST is the default, since it includes both provided and test dependency scopes.
@@ -1780,6 +2030,7 @@ Target launch mode corresponding to io.quarkus.runtime.LaunchMode for which the 
 
 
 a| [[quarkus-maven-plugin-goal-go-offline-project]]`link:#quarkus-maven-plugin-goal-go-offline-project[project]`
+
 
 [.description]
 --
@@ -1790,6 +2041,7 @@ a| [[quarkus-maven-plugin-goal-go-offline-project]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-go-offline-reposession]]`link:#quarkus-maven-plugin-goal-go-offline-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -1798,6 +2050,7 @@ a| [[quarkus-maven-plugin-goal-go-offline-reposession]]`link:#quarkus-maven-plug
 
 
 a| [[quarkus-maven-plugin-goal-go-offline-repos]]`link:#quarkus-maven-plugin-goal-go-offline-repos[repos]`
+
 
 [.description]
 --
@@ -1821,6 +2074,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-help-detail]]`link:#quarkus-maven-plugin-goal-help-detail[detail]`
 
+
 [.description]
 --
 If true, display all settable properties for each goal.
@@ -1829,6 +2083,7 @@ If true, display all settable properties for each goal.
 
 
 a| [[quarkus-maven-plugin-goal-help-goal]]`link:#quarkus-maven-plugin-goal-help-goal[goal]`
+
 
 [.description]
 --
@@ -1839,6 +2094,7 @@ The name of the goal for which to show help. If unspecified, all goals will be d
 
 a| [[quarkus-maven-plugin-goal-help-indentsize]]`link:#quarkus-maven-plugin-goal-help-indentsize[indentSize]`
 
+
 [.description]
 --
 The number of spaces per indentation level, should be positive.
@@ -1847,6 +2103,7 @@ The number of spaces per indentation level, should be positive.
 
 
 a| [[quarkus-maven-plugin-goal-help-linelength]]`link:#quarkus-maven-plugin-goal-help-linelength[lineLength]`
+
 
 [.description]
 --
@@ -1870,6 +2127,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-image-build-appartifact]]`link:#quarkus-maven-plugin-goal-image-build-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -1877,7 +2135,28 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-image-build-attachrunnerasmainartifact]]`link:#quarkus-maven-plugin-goal-image-build-attachrunnerasmainartifact[attachRunnerAsMainArtifact]`
+
+
+[.description]
+--
+Whether to replace the original JAR with the Uber runner JAR as the main project artifact
+--|boolean 
+|`false`
+
+
+a| [[quarkus-maven-plugin-goal-image-build-bootstrapid]]`link:#quarkus-maven-plugin-goal-image-build-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-image-build-builddir]]`link:#quarkus-maven-plugin-goal-image-build-builddir[buildDir]`
+
 
 [.description]
 --
@@ -1888,6 +2167,7 @@ a| [[quarkus-maven-plugin-goal-image-build-builddir]]`link:#quarkus-maven-plugin
 
 a| [[quarkus-maven-plugin-goal-image-build-builddirectory]]`link:#quarkus-maven-plugin-goal-image-build-builddirectory[buildDirectory]`
 
+
 [.description]
 --
 
@@ -1896,6 +2176,7 @@ a| [[quarkus-maven-plugin-goal-image-build-builddirectory]]`link:#quarkus-maven-
 
 
 a| [[quarkus-maven-plugin-goal-image-build-buildername]]`link:#quarkus-maven-plugin-goal-image-build-buildername[builderName]`
+
 
 [.description]
 --
@@ -1906,6 +2187,7 @@ a| [[quarkus-maven-plugin-goal-image-build-buildername]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-image-build-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-image-build-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -1914,6 +2196,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-image-build-dryrun]]`link:#quarkus-maven-plugin-goal-image-build-dryrun[dryRun]`
+
 
 [.description]
 --
@@ -1924,6 +2207,7 @@ a| [[quarkus-maven-plugin-goal-image-build-dryrun]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-image-build-finalname]]`link:#quarkus-maven-plugin-goal-image-build-finalname[finalName]`
 
+
 [.description]
 --
 
@@ -1932,6 +2216,7 @@ a| [[quarkus-maven-plugin-goal-image-build-finalname]]`link:#quarkus-maven-plugi
 
 
 a| [[quarkus-maven-plugin-goal-image-build-generatedsourcesdirectory]]`link:#quarkus-maven-plugin-goal-image-build-generatedsourcesdirectory[generatedSourcesDirectory]`
+
 
 [.description]
 --
@@ -1942,6 +2227,7 @@ The directory for generated source files.
 
 a| [[quarkus-maven-plugin-goal-image-build-ignoredentries]]`link:#quarkus-maven-plugin-goal-image-build-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -1950,6 +2236,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-image-build-manifestentries]]`link:#quarkus-maven-plugin-goal-image-build-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -1960,6 +2247,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-image-build-manifestsections]]`link:#quarkus-maven-plugin-goal-image-build-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -1968,6 +2256,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-image-build-mojoexecution]]`link:#quarkus-maven-plugin-goal-image-build-mojoexecution[mojoExecution]`
+
 
 [.description]
 --
@@ -1978,6 +2267,7 @@ The context of the execution of the plugin.
 
 a| [[quarkus-maven-plugin-goal-image-build-pluginrepos]]`link:#quarkus-maven-plugin-goal-image-build-pluginrepos[pluginRepos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of plugins and their dependencies.
@@ -1986,6 +2276,7 @@ The project's remote repositories to use for the resolution of plugins and their
 
 
 a| [[quarkus-maven-plugin-goal-image-build-project]]`link:#quarkus-maven-plugin-goal-image-build-project[project]`
+
 
 [.description]
 --
@@ -1996,6 +2287,7 @@ a| [[quarkus-maven-plugin-goal-image-build-project]]`link:#quarkus-maven-plugin-
 
 a| [[quarkus-maven-plugin-goal-image-build-properties]]`link:#quarkus-maven-plugin-goal-image-build-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -2004,6 +2296,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-image-build-reposession]]`link:#quarkus-maven-plugin-goal-image-build-reposession[repoSession]`
+
 
 [.description]
 --
@@ -2014,6 +2307,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-image-build-repos]]`link:#quarkus-maven-plugin-goal-image-build-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -2022,6 +2316,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 
 a| [[quarkus-maven-plugin-goal-image-build-session]]`link:#quarkus-maven-plugin-goal-image-build-session[session]`
+
 
 [.description]
 --
@@ -2032,6 +2327,7 @@ a| [[quarkus-maven-plugin-goal-image-build-session]]`link:#quarkus-maven-plugin-
 
 a| [[quarkus-maven-plugin-goal-image-build-skip]]`link:#quarkus-maven-plugin-goal-image-build-skip[skip]`
 
+
 [.description]
 --
 Skips the execution of this mojo
@@ -2041,14 +2337,16 @@ Skips the execution of this mojo
 
 a| [[quarkus-maven-plugin-goal-image-build-skiporiginaljarrename]]`link:#quarkus-maven-plugin-goal-image-build-skiporiginaljarrename[skipOriginalJarRename]`
 
+
 [.description]
 --
-
+When the building an Uber JAR, the default JAR is renamed by adding .original suffix. Enabling this property will disable the renaming of the original JAR.
 --|boolean 
 |`false`
 
 
 a| [[quarkus-maven-plugin-goal-image-build-systemproperties]]`link:#quarkus-maven-plugin-goal-image-build-systemproperties[systemProperties]`
+
 
 [.description]
 --
@@ -2072,6 +2370,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-image-push-appartifact]]`link:#quarkus-maven-plugin-goal-image-push-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -2079,7 +2378,28 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-image-push-attachrunnerasmainartifact]]`link:#quarkus-maven-plugin-goal-image-push-attachrunnerasmainartifact[attachRunnerAsMainArtifact]`
+
+
+[.description]
+--
+Whether to replace the original JAR with the Uber runner JAR as the main project artifact
+--|boolean 
+|`false`
+
+
+a| [[quarkus-maven-plugin-goal-image-push-bootstrapid]]`link:#quarkus-maven-plugin-goal-image-push-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-image-push-builddir]]`link:#quarkus-maven-plugin-goal-image-push-builddir[buildDir]`
+
 
 [.description]
 --
@@ -2090,6 +2410,7 @@ a| [[quarkus-maven-plugin-goal-image-push-builddir]]`link:#quarkus-maven-plugin-
 
 a| [[quarkus-maven-plugin-goal-image-push-builddirectory]]`link:#quarkus-maven-plugin-goal-image-push-builddirectory[buildDirectory]`
 
+
 [.description]
 --
 
@@ -2098,6 +2419,7 @@ a| [[quarkus-maven-plugin-goal-image-push-builddirectory]]`link:#quarkus-maven-p
 
 
 a| [[quarkus-maven-plugin-goal-image-push-buildername]]`link:#quarkus-maven-plugin-goal-image-push-buildername[builderName]`
+
 
 [.description]
 --
@@ -2108,6 +2430,7 @@ a| [[quarkus-maven-plugin-goal-image-push-buildername]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-image-push-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-image-push-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -2116,6 +2439,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-image-push-dryrun]]`link:#quarkus-maven-plugin-goal-image-push-dryrun[dryRun]`
+
 
 [.description]
 --
@@ -2126,6 +2450,7 @@ a| [[quarkus-maven-plugin-goal-image-push-dryrun]]`link:#quarkus-maven-plugin-go
 
 a| [[quarkus-maven-plugin-goal-image-push-finalname]]`link:#quarkus-maven-plugin-goal-image-push-finalname[finalName]`
 
+
 [.description]
 --
 
@@ -2134,6 +2459,7 @@ a| [[quarkus-maven-plugin-goal-image-push-finalname]]`link:#quarkus-maven-plugin
 
 
 a| [[quarkus-maven-plugin-goal-image-push-generatedsourcesdirectory]]`link:#quarkus-maven-plugin-goal-image-push-generatedsourcesdirectory[generatedSourcesDirectory]`
+
 
 [.description]
 --
@@ -2144,6 +2470,7 @@ The directory for generated source files.
 
 a| [[quarkus-maven-plugin-goal-image-push-ignoredentries]]`link:#quarkus-maven-plugin-goal-image-push-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -2152,6 +2479,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-image-push-manifestentries]]`link:#quarkus-maven-plugin-goal-image-push-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -2162,6 +2490,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-image-push-manifestsections]]`link:#quarkus-maven-plugin-goal-image-push-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -2170,6 +2499,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-image-push-mojoexecution]]`link:#quarkus-maven-plugin-goal-image-push-mojoexecution[mojoExecution]`
+
 
 [.description]
 --
@@ -2180,6 +2510,7 @@ The context of the execution of the plugin.
 
 a| [[quarkus-maven-plugin-goal-image-push-pluginrepos]]`link:#quarkus-maven-plugin-goal-image-push-pluginrepos[pluginRepos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of plugins and their dependencies.
@@ -2188,6 +2519,7 @@ The project's remote repositories to use for the resolution of plugins and their
 
 
 a| [[quarkus-maven-plugin-goal-image-push-project]]`link:#quarkus-maven-plugin-goal-image-push-project[project]`
+
 
 [.description]
 --
@@ -2198,6 +2530,7 @@ a| [[quarkus-maven-plugin-goal-image-push-project]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-image-push-properties]]`link:#quarkus-maven-plugin-goal-image-push-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -2206,6 +2539,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-image-push-reposession]]`link:#quarkus-maven-plugin-goal-image-push-reposession[repoSession]`
+
 
 [.description]
 --
@@ -2216,6 +2550,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-image-push-repos]]`link:#quarkus-maven-plugin-goal-image-push-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -2224,6 +2559,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 
 a| [[quarkus-maven-plugin-goal-image-push-session]]`link:#quarkus-maven-plugin-goal-image-push-session[session]`
+
 
 [.description]
 --
@@ -2234,6 +2570,7 @@ a| [[quarkus-maven-plugin-goal-image-push-session]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-image-push-skip]]`link:#quarkus-maven-plugin-goal-image-push-skip[skip]`
 
+
 [.description]
 --
 Skips the execution of this mojo
@@ -2243,14 +2580,16 @@ Skips the execution of this mojo
 
 a| [[quarkus-maven-plugin-goal-image-push-skiporiginaljarrename]]`link:#quarkus-maven-plugin-goal-image-push-skiporiginaljarrename[skipOriginalJarRename]`
 
+
 [.description]
 --
-
+When the building an Uber JAR, the default JAR is renamed by adding .original suffix. Enabling this property will disable the renaming of the original JAR.
 --|boolean 
 |`false`
 
 
 a| [[quarkus-maven-plugin-goal-image-push-systemproperties]]`link:#quarkus-maven-plugin-goal-image-push-systemproperties[systemProperties]`
+
 
 [.description]
 --
@@ -2274,6 +2613,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-info-bomartifactid]]`link:#quarkus-maven-plugin-goal-info-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -2282,6 +2622,7 @@ a| [[quarkus-maven-plugin-goal-info-bomartifactid]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-info-bomgroupid]]`link:#quarkus-maven-plugin-goal-info-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -2292,6 +2633,7 @@ a| [[quarkus-maven-plugin-goal-info-bomgroupid]]`link:#quarkus-maven-plugin-goal
 
 a| [[quarkus-maven-plugin-goal-info-bomversion]]`link:#quarkus-maven-plugin-goal-info-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -2300,6 +2642,7 @@ a| [[quarkus-maven-plugin-goal-info-bomversion]]`link:#quarkus-maven-plugin-goal
 
 
 a| [[quarkus-maven-plugin-goal-info-permodule]]`link:#quarkus-maven-plugin-goal-info-permodule[perModule]`
+
 
 [.description]
 --
@@ -2310,6 +2653,7 @@ If true, the information will be logged per each relevant module of the project 
 
 a| [[quarkus-maven-plugin-goal-info-project]]`link:#quarkus-maven-plugin-goal-info-project[project]`
 
+
 [.description]
 --
 
@@ -2319,6 +2663,7 @@ a| [[quarkus-maven-plugin-goal-info-project]]`link:#quarkus-maven-plugin-goal-in
 
 a| [[quarkus-maven-plugin-goal-info-reposession]]`link:#quarkus-maven-plugin-goal-info-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -2327,6 +2672,7 @@ a| [[quarkus-maven-plugin-goal-info-reposession]]`link:#quarkus-maven-plugin-goa
 
 
 a| [[quarkus-maven-plugin-goal-info-repos]]`link:#quarkus-maven-plugin-goal-info-repos[repos]`
+
 
 [.description]
 --
@@ -2350,6 +2696,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-list-categories-bomartifactid]]`link:#quarkus-maven-plugin-goal-list-categories-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -2358,6 +2705,7 @@ a| [[quarkus-maven-plugin-goal-list-categories-bomartifactid]]`link:#quarkus-mav
 
 
 a| [[quarkus-maven-plugin-goal-list-categories-bomgroupid]]`link:#quarkus-maven-plugin-goal-list-categories-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -2368,6 +2716,7 @@ a| [[quarkus-maven-plugin-goal-list-categories-bomgroupid]]`link:#quarkus-maven-
 
 a| [[quarkus-maven-plugin-goal-list-categories-bomversion]]`link:#quarkus-maven-plugin-goal-list-categories-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -2376,6 +2725,7 @@ a| [[quarkus-maven-plugin-goal-list-categories-bomversion]]`link:#quarkus-maven-
 
 
 a| [[quarkus-maven-plugin-goal-list-categories-format]]`link:#quarkus-maven-plugin-goal-list-categories-format[format]`
+
 
 [.description]
 --
@@ -2386,6 +2736,7 @@ Select the output format among 'name' (display the name only) and 'full' (includ
 
 a| [[quarkus-maven-plugin-goal-list-categories-project]]`link:#quarkus-maven-plugin-goal-list-categories-project[project]`
 
+
 [.description]
 --
 
@@ -2395,6 +2746,7 @@ a| [[quarkus-maven-plugin-goal-list-categories-project]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-list-categories-reposession]]`link:#quarkus-maven-plugin-goal-list-categories-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -2403,6 +2755,7 @@ a| [[quarkus-maven-plugin-goal-list-categories-reposession]]`link:#quarkus-maven
 
 
 a| [[quarkus-maven-plugin-goal-list-categories-repos]]`link:#quarkus-maven-plugin-goal-list-categories-repos[repos]`
+
 
 [.description]
 --
@@ -2426,6 +2779,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-list-extensions-all]]`link:#quarkus-maven-plugin-goal-list-extensions-all[all]`
 
+
 [.description]
 --
 List all extensions or just the installable.
@@ -2434,6 +2788,7 @@ List all extensions or just the installable.
 
 
 a| [[quarkus-maven-plugin-goal-list-extensions-bomartifactid]]`link:#quarkus-maven-plugin-goal-list-extensions-bomartifactid[bomArtifactId]`
+
 
 [.description]
 --
@@ -2444,6 +2799,7 @@ a| [[quarkus-maven-plugin-goal-list-extensions-bomartifactid]]`link:#quarkus-mav
 
 a| [[quarkus-maven-plugin-goal-list-extensions-bomgroupid]]`link:#quarkus-maven-plugin-goal-list-extensions-bomgroupid[bomGroupId]`
 
+
 [.description]
 --
 
@@ -2452,6 +2808,7 @@ a| [[quarkus-maven-plugin-goal-list-extensions-bomgroupid]]`link:#quarkus-maven-
 
 
 a| [[quarkus-maven-plugin-goal-list-extensions-bomversion]]`link:#quarkus-maven-plugin-goal-list-extensions-bomversion[bomVersion]`
+
 
 [.description]
 --
@@ -2462,6 +2819,7 @@ a| [[quarkus-maven-plugin-goal-list-extensions-bomversion]]`link:#quarkus-maven-
 
 a| [[quarkus-maven-plugin-goal-list-extensions-category]]`link:#quarkus-maven-plugin-goal-list-extensions-category[category]`
 
+
 [.description]
 --
 Only list extensions from given category.
@@ -2470,6 +2828,7 @@ Only list extensions from given category.
 
 
 a| [[quarkus-maven-plugin-goal-list-extensions-format]]`link:#quarkus-maven-plugin-goal-list-extensions-format[format]`
+
 
 [.description]
 --
@@ -2480,6 +2839,7 @@ Select the output format among 'id' (display the artifactId only), 'concise' (di
 
 a| [[quarkus-maven-plugin-goal-list-extensions-installed]]`link:#quarkus-maven-plugin-goal-list-extensions-installed[installed]`
 
+
 [.description]
 --
 List the already installed extensions
@@ -2488,6 +2848,7 @@ List the already installed extensions
 
 
 a| [[quarkus-maven-plugin-goal-list-extensions-project]]`link:#quarkus-maven-plugin-goal-list-extensions-project[project]`
+
 
 [.description]
 --
@@ -2498,6 +2859,7 @@ a| [[quarkus-maven-plugin-goal-list-extensions-project]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-list-extensions-reposession]]`link:#quarkus-maven-plugin-goal-list-extensions-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -2507,6 +2869,7 @@ a| [[quarkus-maven-plugin-goal-list-extensions-reposession]]`link:#quarkus-maven
 
 a| [[quarkus-maven-plugin-goal-list-extensions-repos]]`link:#quarkus-maven-plugin-goal-list-extensions-repos[repos]`
 
+
 [.description]
 --
 
@@ -2515,6 +2878,7 @@ a| [[quarkus-maven-plugin-goal-list-extensions-repos]]`link:#quarkus-maven-plugi
 
 
 a| [[quarkus-maven-plugin-goal-list-extensions-searchpattern]]`link:#quarkus-maven-plugin-goal-list-extensions-searchpattern[searchPattern]`
+
 
 [.description]
 --
@@ -2538,6 +2902,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-list-platforms-bomartifactid]]`link:#quarkus-maven-plugin-goal-list-platforms-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -2546,6 +2911,7 @@ a| [[quarkus-maven-plugin-goal-list-platforms-bomartifactid]]`link:#quarkus-mave
 
 
 a| [[quarkus-maven-plugin-goal-list-platforms-bomgroupid]]`link:#quarkus-maven-plugin-goal-list-platforms-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -2556,6 +2922,7 @@ a| [[quarkus-maven-plugin-goal-list-platforms-bomgroupid]]`link:#quarkus-maven-p
 
 a| [[quarkus-maven-plugin-goal-list-platforms-bomversion]]`link:#quarkus-maven-plugin-goal-list-platforms-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -2564,6 +2931,7 @@ a| [[quarkus-maven-plugin-goal-list-platforms-bomversion]]`link:#quarkus-maven-p
 
 
 a| [[quarkus-maven-plugin-goal-list-platforms-installed]]`link:#quarkus-maven-plugin-goal-list-platforms-installed[installed]`
+
 
 [.description]
 --
@@ -2574,6 +2942,7 @@ List the already installed extensions
 
 a| [[quarkus-maven-plugin-goal-list-platforms-project]]`link:#quarkus-maven-plugin-goal-list-platforms-project[project]`
 
+
 [.description]
 --
 
@@ -2583,6 +2952,7 @@ a| [[quarkus-maven-plugin-goal-list-platforms-project]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-list-platforms-reposession]]`link:#quarkus-maven-plugin-goal-list-platforms-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -2591,6 +2961,7 @@ a| [[quarkus-maven-plugin-goal-list-platforms-reposession]]`link:#quarkus-maven-
 
 
 a| [[quarkus-maven-plugin-goal-list-platforms-repos]]`link:#quarkus-maven-plugin-goal-list-platforms-repos[repos]`
+
 
 [.description]
 --
@@ -2612,6 +2983,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-prepare-appartifact]]`link:#quarkus-maven-plugin-goal-prepare-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -2619,7 +2991,18 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-prepare-bootstrapid]]`link:#quarkus-maven-plugin-goal-prepare-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-prepare-builddir]]`link:#quarkus-maven-plugin-goal-prepare-builddir[buildDir]`
+
 
 [.description]
 --
@@ -2630,6 +3013,7 @@ a| [[quarkus-maven-plugin-goal-prepare-builddir]]`link:#quarkus-maven-plugin-goa
 
 a| [[quarkus-maven-plugin-goal-prepare-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-prepare-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -2638,6 +3022,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-prepare-finalname]]`link:#quarkus-maven-plugin-goal-prepare-finalname[finalName]`
+
 
 [.description]
 --
@@ -2648,6 +3033,7 @@ a| [[quarkus-maven-plugin-goal-prepare-finalname]]`link:#quarkus-maven-plugin-go
 
 a| [[quarkus-maven-plugin-goal-prepare-ignoredentries]]`link:#quarkus-maven-plugin-goal-prepare-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -2656,6 +3042,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-prepare-manifestentries]]`link:#quarkus-maven-plugin-goal-prepare-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -2666,6 +3053,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-prepare-manifestsections]]`link:#quarkus-maven-plugin-goal-prepare-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -2674,6 +3062,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-prepare-mode]]`link:#quarkus-maven-plugin-goal-prepare-mode[mode]`
+
 
 [.description]
 --
@@ -2684,6 +3073,7 @@ a| [[quarkus-maven-plugin-goal-prepare-mode]]`link:#quarkus-maven-plugin-goal-pr
 
 a| [[quarkus-maven-plugin-goal-prepare-mojoexecution]]`link:#quarkus-maven-plugin-goal-prepare-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 The context of the execution of the plugin.
@@ -2692,6 +3082,7 @@ The context of the execution of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-prepare-project]]`link:#quarkus-maven-plugin-goal-prepare-project[project]`
+
 
 [.description]
 --
@@ -2702,6 +3093,7 @@ a| [[quarkus-maven-plugin-goal-prepare-project]]`link:#quarkus-maven-plugin-goal
 
 a| [[quarkus-maven-plugin-goal-prepare-properties]]`link:#quarkus-maven-plugin-goal-prepare-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -2710,6 +3102,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-prepare-reposession]]`link:#quarkus-maven-plugin-goal-prepare-reposession[repoSession]`
+
 
 [.description]
 --
@@ -2720,6 +3113,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-prepare-repos]]`link:#quarkus-maven-plugin-goal-prepare-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -2729,6 +3123,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 a| [[quarkus-maven-plugin-goal-prepare-session]]`link:#quarkus-maven-plugin-goal-prepare-session[session]`
 
+
 [.description]
 --
 
@@ -2737,6 +3132,7 @@ a| [[quarkus-maven-plugin-goal-prepare-session]]`link:#quarkus-maven-plugin-goal
 
 
 a| [[quarkus-maven-plugin-goal-prepare-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-prepare-skipsourcegeneration[skipSourceGeneration]`
+
 
 [.description]
 --
@@ -2758,6 +3154,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-appartifact]]`link:#quarkus-maven-plugin-goal-prepare-tests-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -2765,7 +3162,18 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-prepare-tests-bootstrapid]]`link:#quarkus-maven-plugin-goal-prepare-tests-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-prepare-tests-builddir]]`link:#quarkus-maven-plugin-goal-prepare-tests-builddir[buildDir]`
+
 
 [.description]
 --
@@ -2776,6 +3184,7 @@ a| [[quarkus-maven-plugin-goal-prepare-tests-builddir]]`link:#quarkus-maven-plug
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-prepare-tests-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -2784,6 +3193,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-finalname]]`link:#quarkus-maven-plugin-goal-prepare-tests-finalname[finalName]`
+
 
 [.description]
 --
@@ -2794,6 +3204,7 @@ a| [[quarkus-maven-plugin-goal-prepare-tests-finalname]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-ignoredentries]]`link:#quarkus-maven-plugin-goal-prepare-tests-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -2802,6 +3213,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-manifestentries]]`link:#quarkus-maven-plugin-goal-prepare-tests-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -2812,6 +3224,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-manifestsections]]`link:#quarkus-maven-plugin-goal-prepare-tests-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -2820,6 +3233,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-mode]]`link:#quarkus-maven-plugin-goal-prepare-tests-mode[mode]`
+
 
 [.description]
 --
@@ -2830,6 +3244,7 @@ a| [[quarkus-maven-plugin-goal-prepare-tests-mode]]`link:#quarkus-maven-plugin-g
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-mojoexecution]]`link:#quarkus-maven-plugin-goal-prepare-tests-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 The context of the execution of the plugin.
@@ -2838,6 +3253,7 @@ The context of the execution of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-project]]`link:#quarkus-maven-plugin-goal-prepare-tests-project[project]`
+
 
 [.description]
 --
@@ -2848,6 +3264,7 @@ a| [[quarkus-maven-plugin-goal-prepare-tests-project]]`link:#quarkus-maven-plugi
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-properties]]`link:#quarkus-maven-plugin-goal-prepare-tests-properties[properties]`
 
+
 [.description]
 --
 The properties of the plugin.
@@ -2856,6 +3273,7 @@ The properties of the plugin.
 
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-reposession]]`link:#quarkus-maven-plugin-goal-prepare-tests-reposession[repoSession]`
+
 
 [.description]
 --
@@ -2866,6 +3284,7 @@ The current repository/network configuration of Maven.
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-repos]]`link:#quarkus-maven-plugin-goal-prepare-tests-repos[repos]`
 
+
 [.description]
 --
 The project's remote repositories to use for the resolution of artifacts and their dependencies.
@@ -2875,6 +3294,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-session]]`link:#quarkus-maven-plugin-goal-prepare-tests-session[session]`
 
+
 [.description]
 --
 
@@ -2883,6 +3303,7 @@ a| [[quarkus-maven-plugin-goal-prepare-tests-session]]`link:#quarkus-maven-plugi
 
 
 a| [[quarkus-maven-plugin-goal-prepare-tests-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-prepare-tests-skipsourcegeneration[skipSourceGeneration]`
+
 
 [.description]
 --
@@ -2906,6 +3327,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-remote-dev-argsstring]]`link:#quarkus-maven-plugin-goal-remote-dev-argsstring[argsString]`
 
+
 [.description]
 --
 
@@ -2914,6 +3336,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-argsstring]]`link:#quarkus-maven-plugi
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-builddir]]`link:#quarkus-maven-plugin-goal-remote-dev-builddir[buildDir]`
+
 
 [.description]
 --
@@ -2924,6 +3347,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-builddir]]`link:#quarkus-maven-plugin-
 
 a| [[quarkus-maven-plugin-goal-remote-dev-compilerargs]]`link:#quarkus-maven-plugin-goal-remote-dev-compilerargs[compilerArgs]`
 
+
 [.description]
 --
 Additional parameters to pass to javac when recompiling changed source files.
@@ -2932,6 +3356,7 @@ Additional parameters to pass to javac when recompiling changed source files.
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-compileroptions]]`link:#quarkus-maven-plugin-goal-remote-dev-compileroptions[compilerOptions]`
+
 
 [.description]
 --
@@ -2942,6 +3367,7 @@ Additional compiler arguments
 
 a| [[quarkus-maven-plugin-goal-remote-dev-debug]]`link:#quarkus-maven-plugin-goal-remote-dev-debug[debug]`
 
+
 [.description]
 --
 If this server should be started in debug mode. The default is to start in debug mode and listen on port 5005. Whether the JVM is suspended waiting for a debugger to be attached, depends on the value of suspend. debug supports the following options: Value Effect false The JVM is not started in debug mode true The JVM is started in debug mode and will be listening on debugHost:debugPort client The JVM is started in client mode, and will attempt to connect to debugHost:debugPort ++{++port++}++ The JVM is started in debug mode and will be listening on debugHost:++{++port++}++. By default, debugHost has the value "localhost", and debugPort is 5005.
@@ -2950,6 +3376,7 @@ If this server should be started in debug mode. The default is to start in debug
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-debughost]]`link:#quarkus-maven-plugin-goal-remote-dev-debughost[debugHost]`
+
 
 [.description]
 --
@@ -2960,6 +3387,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-debughost]]`link:#quarkus-maven-plugin
 
 a| [[quarkus-maven-plugin-goal-remote-dev-debugport]]`link:#quarkus-maven-plugin-goal-remote-dev-debugport[debugPort]`
 
+
 [.description]
 --
 
@@ -2968,6 +3396,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-debugport]]`link:#quarkus-maven-plugin
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-deletedevjar]]`link:#quarkus-maven-plugin-goal-remote-dev-deletedevjar[deleteDevJar]`
+
 
 [.description]
 --
@@ -2978,6 +3407,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-deletedevjar]]`link:#quarkus-maven-plu
 
 a| [[quarkus-maven-plugin-goal-remote-dev-enforcebuildgoal]]`link:#quarkus-maven-plugin-goal-remote-dev-enforcebuildgoal[enforceBuildGoal]`
 
+
 [.description]
 --
 Whether to enforce the quarkus-maven-plugin build goal to be configured. By default, a missing build goal is considered an inconsistency (although the build goal is not required technically). In this case a warning will be logged and the application will not be started.
@@ -2986,6 +3416,7 @@ Whether to enforce the quarkus-maven-plugin build goal to be configured. By defa
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-environmentvariables]]`link:#quarkus-maven-plugin-goal-remote-dev-environmentvariables[environmentVariables]`
+
 
 [.description]
 --
@@ -2996,6 +3427,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-environmentvariables]]`link:#quarkus-m
 
 a| [[quarkus-maven-plugin-goal-remote-dev-jvmargs]]`link:#quarkus-maven-plugin-goal-remote-dev-jvmargs[jvmArgs]`
 
+
 [.description]
 --
 
@@ -3004,6 +3436,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-jvmargs]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-modules]]`link:#quarkus-maven-plugin-goal-remote-dev-modules[modules]`
+
 
 [.description]
 --
@@ -3014,6 +3447,7 @@ Allows configuring the modules to add to the application. The listed modules wil
 
 a| [[quarkus-maven-plugin-goal-remote-dev-mojoexecution]]`link:#quarkus-maven-plugin-goal-remote-dev-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 
@@ -3022,6 +3456,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-mojoexecution]]`link:#quarkus-maven-pl
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-nodeps]]`link:#quarkus-maven-plugin-goal-remote-dev-nodeps[noDeps]`
+
 
 [.description]
 --
@@ -3032,6 +3467,7 @@ Whether changes in the projects that appear to be dependencies of the project co
 
 a| [[quarkus-maven-plugin-goal-remote-dev-openjavalang]]`link:#quarkus-maven-plugin-goal-remote-dev-openjavalang[openJavaLang]`
 
+
 [.description]
 --
 
@@ -3040,6 +3476,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-openjavalang]]`link:#quarkus-maven-plu
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-outputdirectory]]`link:#quarkus-maven-plugin-goal-remote-dev-outputdirectory[outputDirectory]`
+
 
 [.description]
 --
@@ -3050,6 +3487,7 @@ The directory for compiled classes.
 
 a| [[quarkus-maven-plugin-goal-remote-dev-pluginrepos]]`link:#quarkus-maven-plugin-goal-remote-dev-pluginrepos[pluginRepos]`
 
+
 [.description]
 --
 
@@ -3058,6 +3496,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-pluginrepos]]`link:#quarkus-maven-plug
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-preventnoverify]]`link:#quarkus-maven-plugin-goal-remote-dev-preventnoverify[preventnoverify]`
+
 
 [.description]
 --
@@ -3068,6 +3507,7 @@ This value is intended to be set to true when some generated bytecode is erroneo
 
 a| [[quarkus-maven-plugin-goal-remote-dev-project]]`link:#quarkus-maven-plugin-goal-remote-dev-project[project]`
 
+
 [.description]
 --
 
@@ -3076,6 +3516,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-project]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-release]]`link:#quarkus-maven-plugin-goal-remote-dev-release[release]`
+
 
 [.description]
 --
@@ -3086,6 +3527,7 @@ The --release argument to javac.
 
 a| [[quarkus-maven-plugin-goal-remote-dev-reposession]]`link:#quarkus-maven-plugin-goal-remote-dev-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -3094,6 +3536,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-reposession]]`link:#quarkus-maven-plug
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-repos]]`link:#quarkus-maven-plugin-goal-remote-dev-repos[repos]`
+
 
 [.description]
 --
@@ -3104,6 +3547,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-repos]]`link:#quarkus-maven-plugin-goa
 
 a| [[quarkus-maven-plugin-goal-remote-dev-session]]`link:#quarkus-maven-plugin-goal-remote-dev-session[session]`
 
+
 [.description]
 --
 
@@ -3112,6 +3556,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-session]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-source]]`link:#quarkus-maven-plugin-goal-remote-dev-source[source]`
+
 
 [.description]
 --
@@ -3122,6 +3567,7 @@ The -source argument to javac.
 
 a| [[quarkus-maven-plugin-goal-remote-dev-sourcedir]]`link:#quarkus-maven-plugin-goal-remote-dev-sourcedir[sourceDir]`
 
+
 [.description]
 --
 
@@ -3130,6 +3576,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-sourcedir]]`link:#quarkus-maven-plugin
 
 
 a| [[quarkus-maven-plugin-goal-remote-dev-suspend]]`link:#quarkus-maven-plugin-goal-remote-dev-suspend[suspend]`
+
 
 [.description]
 --
@@ -3140,6 +3587,7 @@ Whether the JVM launch, in debug mode, should be suspended. This parameter is on
 
 a| [[quarkus-maven-plugin-goal-remote-dev-systemproperties]]`link:#quarkus-maven-plugin-goal-remote-dev-systemproperties[systemProperties]`
 
+
 [.description]
 --
 
@@ -3149,6 +3597,7 @@ a| [[quarkus-maven-plugin-goal-remote-dev-systemproperties]]`link:#quarkus-maven
 
 a| [[quarkus-maven-plugin-goal-remote-dev-target]]`link:#quarkus-maven-plugin-goal-remote-dev-target[target]`
 
+
 [.description]
 --
 The -target argument to javac.
@@ -3156,7 +3605,18 @@ The -target argument to javac.
 |`${maven.compiler.target}`
 
 
+a| [[quarkus-maven-plugin-goal-remote-dev-warnifbuildgoalmissing]]`link:#quarkus-maven-plugin-goal-remote-dev-warnifbuildgoalmissing[warnIfBuildGoalMissing]`
+
+
+[.description]
+--
+
+--|boolean 
+|`false`
+
+
 a| [[quarkus-maven-plugin-goal-remote-dev-workingdir]]`link:#quarkus-maven-plugin-goal-remote-dev-workingdir[workingDir]`
+
 
 [.description]
 --
@@ -3180,6 +3640,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-remove-extension-bomartifactid]]`link:#quarkus-maven-plugin-goal-remove-extension-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -3188,6 +3649,7 @@ a| [[quarkus-maven-plugin-goal-remove-extension-bomartifactid]]`link:#quarkus-ma
 
 
 a| [[quarkus-maven-plugin-goal-remove-extension-bomgroupid]]`link:#quarkus-maven-plugin-goal-remove-extension-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -3198,6 +3660,7 @@ a| [[quarkus-maven-plugin-goal-remove-extension-bomgroupid]]`link:#quarkus-maven
 
 a| [[quarkus-maven-plugin-goal-remove-extension-bomversion]]`link:#quarkus-maven-plugin-goal-remove-extension-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -3206,6 +3669,7 @@ a| [[quarkus-maven-plugin-goal-remove-extension-bomversion]]`link:#quarkus-maven
 
 
 a| [[quarkus-maven-plugin-goal-remove-extension-extension]]`link:#quarkus-maven-plugin-goal-remove-extension-extension[extension]`
+
 
 [.description]
 --
@@ -3216,6 +3680,7 @@ For usability reason, this parameter allows removing a single extension.
 
 a| [[quarkus-maven-plugin-goal-remove-extension-extensions]]`link:#quarkus-maven-plugin-goal-remove-extension-extensions[extensions]`
 
+
 [.description]
 --
 The list of extensions to be removed.
@@ -3224,6 +3689,7 @@ The list of extensions to be removed.
 
 
 a| [[quarkus-maven-plugin-goal-remove-extension-project]]`link:#quarkus-maven-plugin-goal-remove-extension-project[project]`
+
 
 [.description]
 --
@@ -3234,6 +3700,7 @@ a| [[quarkus-maven-plugin-goal-remove-extension-project]]`link:#quarkus-maven-pl
 
 a| [[quarkus-maven-plugin-goal-remove-extension-reposession]]`link:#quarkus-maven-plugin-goal-remove-extension-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -3242,6 +3709,7 @@ a| [[quarkus-maven-plugin-goal-remove-extension-reposession]]`link:#quarkus-mave
 
 
 a| [[quarkus-maven-plugin-goal-remove-extension-repos]]`link:#quarkus-maven-plugin-goal-remove-extension-repos[repos]`
+
 
 [.description]
 --
@@ -3265,6 +3733,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-bomartifactid]]`link:#quarkus-maven-plugin-goal-remove-extensions-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -3273,6 +3742,7 @@ a| [[quarkus-maven-plugin-goal-remove-extensions-bomartifactid]]`link:#quarkus-m
 
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-bomgroupid]]`link:#quarkus-maven-plugin-goal-remove-extensions-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -3283,6 +3753,7 @@ a| [[quarkus-maven-plugin-goal-remove-extensions-bomgroupid]]`link:#quarkus-mave
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-bomversion]]`link:#quarkus-maven-plugin-goal-remove-extensions-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -3291,6 +3762,7 @@ a| [[quarkus-maven-plugin-goal-remove-extensions-bomversion]]`link:#quarkus-mave
 
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-extension]]`link:#quarkus-maven-plugin-goal-remove-extensions-extension[extension]`
+
 
 [.description]
 --
@@ -3301,6 +3773,7 @@ For usability reason, this parameter allows removing a single extension.
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-extensions]]`link:#quarkus-maven-plugin-goal-remove-extensions-extensions[extensions]`
 
+
 [.description]
 --
 The list of extensions to be removed.
@@ -3309,6 +3782,7 @@ The list of extensions to be removed.
 
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-project]]`link:#quarkus-maven-plugin-goal-remove-extensions-project[project]`
+
 
 [.description]
 --
@@ -3319,6 +3793,7 @@ a| [[quarkus-maven-plugin-goal-remove-extensions-project]]`link:#quarkus-maven-p
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-reposession]]`link:#quarkus-maven-plugin-goal-remove-extensions-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -3327,6 +3802,7 @@ a| [[quarkus-maven-plugin-goal-remove-extensions-reposession]]`link:#quarkus-mav
 
 
 a| [[quarkus-maven-plugin-goal-remove-extensions-repos]]`link:#quarkus-maven-plugin-goal-remove-extensions-repos[repos]`
+
 
 [.description]
 --
@@ -3348,6 +3824,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-run-appartifact]]`link:#quarkus-maven-plugin-goal-run-appartifact[appArtifact]`
 
+
 [.description]
 --
 Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application. The coordinates are expected to be expressed in the following format: groupId:artifactId:classifier:type:version With the classifier, type and version being optional. If the type is missing, the artifact is assumed to be of type JAR. If the version is missing, the artifact is going to be looked up among the project dependencies using the provided coordinates. However, if the expression consists of only three parts, it is assumed to be groupId:artifactId:version. If the expression consists of only four parts, it is assumed to be groupId:artifactId:classifier:type.
@@ -3355,7 +3832,18 @@ Coordinates of the Maven artifact containing the original Java application to bu
 |
 
 
+a| [[quarkus-maven-plugin-goal-run-bootstrapid]]`link:#quarkus-maven-plugin-goal-run-bootstrapid[bootstrapId]`
+
+
+[.description]
+--
+Application bootstrap provider ID. This parameter is not supposed to be configured by the user. To be able to re-use an application bootstrapped in one phase in a later phase, there needs to be a way to identify the correct instance of the bootstrapped application (in case there are more than one) in each Mojo. A bootstrap ID serves this purpose. This parameter is is set in DevMojo invoking generate-code and generate-code-tests goals. If this parameter is not configured, a Mojo execution ID will be used as the bootstrap ID.
+--|String 
+|
+
+
 a| [[quarkus-maven-plugin-goal-run-builddir]]`link:#quarkus-maven-plugin-goal-run-builddir[buildDir]`
+
 
 [.description]
 --
@@ -3366,6 +3854,7 @@ a| [[quarkus-maven-plugin-goal-run-builddir]]`link:#quarkus-maven-plugin-goal-ru
 
 a| [[quarkus-maven-plugin-goal-run-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-run-closebootstrappedapp[closeBootstrappedApp]`
 
+
 [.description]
 --
 Whether to close the bootstrapped applications after the execution
@@ -3374,6 +3863,7 @@ Whether to close the bootstrapped applications after the execution
 
 
 a| [[quarkus-maven-plugin-goal-run-finalname]]`link:#quarkus-maven-plugin-goal-run-finalname[finalName]`
+
 
 [.description]
 --
@@ -3384,6 +3874,7 @@ a| [[quarkus-maven-plugin-goal-run-finalname]]`link:#quarkus-maven-plugin-goal-r
 
 a| [[quarkus-maven-plugin-goal-run-ignoredentries]]`link:#quarkus-maven-plugin-goal-run-ignoredentries[ignoredEntries]`
 
+
 [.description]
 --
 When building an uber-jar, this array specifies entries that should be excluded from the final jar. The entries are relative to the root of the file. An example of this configuration could be:  true  META-INF/BC2048KE.SF META-INF/BC2048KE.DSA META-INF/BC1024KE.SF META-INF/BC1024KE.DSA
@@ -3392,6 +3883,7 @@ When building an uber-jar, this array specifies entries that should be excluded 
 
 
 a| [[quarkus-maven-plugin-goal-run-manifestentries]]`link:#quarkus-maven-plugin-goal-run-manifestentries[manifestEntries]`
+
 
 [.description]
 --
@@ -3402,6 +3894,7 @@ The list of main manifest attributes
 
 a| [[quarkus-maven-plugin-goal-run-manifestsections]]`link:#quarkus-maven-plugin-goal-run-manifestsections[manifestSections]`
 
+
 [.description]
 --
 The list of manifest sections
@@ -3410,6 +3903,7 @@ The list of manifest sections
 
 
 a| [[quarkus-maven-plugin-goal-run-mojoexecution]]`link:#quarkus-maven-plugin-goal-run-mojoexecution[mojoExecution]`
+
 
 [.description]
 --
@@ -3420,6 +3914,7 @@ The context of the execution of the plugin.
 
 a| [[quarkus-maven-plugin-goal-run-project]]`link:#quarkus-maven-plugin-goal-run-project[project]`
 
+
 [.description]
 --
 
@@ -3428,6 +3923,7 @@ a| [[quarkus-maven-plugin-goal-run-project]]`link:#quarkus-maven-plugin-goal-run
 
 
 a| [[quarkus-maven-plugin-goal-run-properties]]`link:#quarkus-maven-plugin-goal-run-properties[properties]`
+
 
 [.description]
 --
@@ -3438,6 +3934,7 @@ The properties of the plugin.
 
 a| [[quarkus-maven-plugin-goal-run-reposession]]`link:#quarkus-maven-plugin-goal-run-reposession[repoSession]`
 
+
 [.description]
 --
 The current repository/network configuration of Maven.
@@ -3446,6 +3943,7 @@ The current repository/network configuration of Maven.
 
 
 a| [[quarkus-maven-plugin-goal-run-repos]]`link:#quarkus-maven-plugin-goal-run-repos[repos]`
+
 
 [.description]
 --
@@ -3456,6 +3954,7 @@ The project's remote repositories to use for the resolution of artifacts and the
 
 a| [[quarkus-maven-plugin-goal-run-session]]`link:#quarkus-maven-plugin-goal-run-session[session]`
 
+
 [.description]
 --
 
@@ -3464,6 +3963,7 @@ a| [[quarkus-maven-plugin-goal-run-session]]`link:#quarkus-maven-plugin-goal-run
 
 
 a| [[quarkus-maven-plugin-goal-run-systemproperties]]`link:#quarkus-maven-plugin-goal-run-systemproperties[systemProperties]`
+
 
 [.description]
 --
@@ -3487,6 +3987,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-test-argsstring]]`link:#quarkus-maven-plugin-goal-test-argsstring[argsString]`
 
+
 [.description]
 --
 
@@ -3495,6 +3996,7 @@ a| [[quarkus-maven-plugin-goal-test-argsstring]]`link:#quarkus-maven-plugin-goal
 
 
 a| [[quarkus-maven-plugin-goal-test-builddir]]`link:#quarkus-maven-plugin-goal-test-builddir[buildDir]`
+
 
 [.description]
 --
@@ -3505,6 +4007,7 @@ a| [[quarkus-maven-plugin-goal-test-builddir]]`link:#quarkus-maven-plugin-goal-t
 
 a| [[quarkus-maven-plugin-goal-test-compilerargs]]`link:#quarkus-maven-plugin-goal-test-compilerargs[compilerArgs]`
 
+
 [.description]
 --
 Additional parameters to pass to javac when recompiling changed source files.
@@ -3513,6 +4016,7 @@ Additional parameters to pass to javac when recompiling changed source files.
 
 
 a| [[quarkus-maven-plugin-goal-test-compileroptions]]`link:#quarkus-maven-plugin-goal-test-compileroptions[compilerOptions]`
+
 
 [.description]
 --
@@ -3523,6 +4027,7 @@ Additional compiler arguments
 
 a| [[quarkus-maven-plugin-goal-test-debug]]`link:#quarkus-maven-plugin-goal-test-debug[debug]`
 
+
 [.description]
 --
 If this server should be started in debug mode. The default is to start in debug mode and listen on port 5005. Whether the JVM is suspended waiting for a debugger to be attached, depends on the value of suspend. debug supports the following options: Value Effect false The JVM is not started in debug mode true The JVM is started in debug mode and will be listening on debugHost:debugPort client The JVM is started in client mode, and will attempt to connect to debugHost:debugPort ++{++port++}++ The JVM is started in debug mode and will be listening on debugHost:++{++port++}++. By default, debugHost has the value "localhost", and debugPort is 5005.
@@ -3531,6 +4036,7 @@ If this server should be started in debug mode. The default is to start in debug
 
 
 a| [[quarkus-maven-plugin-goal-test-debughost]]`link:#quarkus-maven-plugin-goal-test-debughost[debugHost]`
+
 
 [.description]
 --
@@ -3541,6 +4047,7 @@ a| [[quarkus-maven-plugin-goal-test-debughost]]`link:#quarkus-maven-plugin-goal-
 
 a| [[quarkus-maven-plugin-goal-test-debugport]]`link:#quarkus-maven-plugin-goal-test-debugport[debugPort]`
 
+
 [.description]
 --
 
@@ -3549,6 +4056,7 @@ a| [[quarkus-maven-plugin-goal-test-debugport]]`link:#quarkus-maven-plugin-goal-
 
 
 a| [[quarkus-maven-plugin-goal-test-deletedevjar]]`link:#quarkus-maven-plugin-goal-test-deletedevjar[deleteDevJar]`
+
 
 [.description]
 --
@@ -3559,6 +4067,7 @@ a| [[quarkus-maven-plugin-goal-test-deletedevjar]]`link:#quarkus-maven-plugin-go
 
 a| [[quarkus-maven-plugin-goal-test-enforcebuildgoal]]`link:#quarkus-maven-plugin-goal-test-enforcebuildgoal[enforceBuildGoal]`
 
+
 [.description]
 --
 Whether to enforce the quarkus-maven-plugin build goal to be configured. By default, a missing build goal is considered an inconsistency (although the build goal is not required technically). In this case a warning will be logged and the application will not be started.
@@ -3567,6 +4076,7 @@ Whether to enforce the quarkus-maven-plugin build goal to be configured. By defa
 
 
 a| [[quarkus-maven-plugin-goal-test-environmentvariables]]`link:#quarkus-maven-plugin-goal-test-environmentvariables[environmentVariables]`
+
 
 [.description]
 --
@@ -3577,6 +4087,7 @@ a| [[quarkus-maven-plugin-goal-test-environmentvariables]]`link:#quarkus-maven-p
 
 a| [[quarkus-maven-plugin-goal-test-jvmargs]]`link:#quarkus-maven-plugin-goal-test-jvmargs[jvmArgs]`
 
+
 [.description]
 --
 
@@ -3585,6 +4096,7 @@ a| [[quarkus-maven-plugin-goal-test-jvmargs]]`link:#quarkus-maven-plugin-goal-te
 
 
 a| [[quarkus-maven-plugin-goal-test-modules]]`link:#quarkus-maven-plugin-goal-test-modules[modules]`
+
 
 [.description]
 --
@@ -3595,6 +4107,7 @@ Allows configuring the modules to add to the application. The listed modules wil
 
 a| [[quarkus-maven-plugin-goal-test-mojoexecution]]`link:#quarkus-maven-plugin-goal-test-mojoexecution[mojoExecution]`
 
+
 [.description]
 --
 
@@ -3603,6 +4116,7 @@ a| [[quarkus-maven-plugin-goal-test-mojoexecution]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-test-nodeps]]`link:#quarkus-maven-plugin-goal-test-nodeps[noDeps]`
+
 
 [.description]
 --
@@ -3613,6 +4127,7 @@ Whether changes in the projects that appear to be dependencies of the project co
 
 a| [[quarkus-maven-plugin-goal-test-openjavalang]]`link:#quarkus-maven-plugin-goal-test-openjavalang[openJavaLang]`
 
+
 [.description]
 --
 
@@ -3621,6 +4136,7 @@ a| [[quarkus-maven-plugin-goal-test-openjavalang]]`link:#quarkus-maven-plugin-go
 
 
 a| [[quarkus-maven-plugin-goal-test-outputdirectory]]`link:#quarkus-maven-plugin-goal-test-outputdirectory[outputDirectory]`
+
 
 [.description]
 --
@@ -3631,6 +4147,7 @@ The directory for compiled classes.
 
 a| [[quarkus-maven-plugin-goal-test-pluginrepos]]`link:#quarkus-maven-plugin-goal-test-pluginrepos[pluginRepos]`
 
+
 [.description]
 --
 
@@ -3639,6 +4156,7 @@ a| [[quarkus-maven-plugin-goal-test-pluginrepos]]`link:#quarkus-maven-plugin-goa
 
 
 a| [[quarkus-maven-plugin-goal-test-preventnoverify]]`link:#quarkus-maven-plugin-goal-test-preventnoverify[preventnoverify]`
+
 
 [.description]
 --
@@ -3649,6 +4167,7 @@ This value is intended to be set to true when some generated bytecode is erroneo
 
 a| [[quarkus-maven-plugin-goal-test-project]]`link:#quarkus-maven-plugin-goal-test-project[project]`
 
+
 [.description]
 --
 
@@ -3657,6 +4176,7 @@ a| [[quarkus-maven-plugin-goal-test-project]]`link:#quarkus-maven-plugin-goal-te
 
 
 a| [[quarkus-maven-plugin-goal-test-release]]`link:#quarkus-maven-plugin-goal-test-release[release]`
+
 
 [.description]
 --
@@ -3667,6 +4187,7 @@ The --release argument to javac.
 
 a| [[quarkus-maven-plugin-goal-test-reposession]]`link:#quarkus-maven-plugin-goal-test-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -3675,6 +4196,7 @@ a| [[quarkus-maven-plugin-goal-test-reposession]]`link:#quarkus-maven-plugin-goa
 
 
 a| [[quarkus-maven-plugin-goal-test-repos]]`link:#quarkus-maven-plugin-goal-test-repos[repos]`
+
 
 [.description]
 --
@@ -3685,6 +4207,7 @@ a| [[quarkus-maven-plugin-goal-test-repos]]`link:#quarkus-maven-plugin-goal-test
 
 a| [[quarkus-maven-plugin-goal-test-session]]`link:#quarkus-maven-plugin-goal-test-session[session]`
 
+
 [.description]
 --
 
@@ -3693,6 +4216,7 @@ a| [[quarkus-maven-plugin-goal-test-session]]`link:#quarkus-maven-plugin-goal-te
 
 
 a| [[quarkus-maven-plugin-goal-test-source]]`link:#quarkus-maven-plugin-goal-test-source[source]`
+
 
 [.description]
 --
@@ -3703,6 +4227,7 @@ The -source argument to javac.
 
 a| [[quarkus-maven-plugin-goal-test-sourcedir]]`link:#quarkus-maven-plugin-goal-test-sourcedir[sourceDir]`
 
+
 [.description]
 --
 
@@ -3711,6 +4236,7 @@ a| [[quarkus-maven-plugin-goal-test-sourcedir]]`link:#quarkus-maven-plugin-goal-
 
 
 a| [[quarkus-maven-plugin-goal-test-suspend]]`link:#quarkus-maven-plugin-goal-test-suspend[suspend]`
+
 
 [.description]
 --
@@ -3721,6 +4247,7 @@ Whether the JVM launch, in debug mode, should be suspended. This parameter is on
 
 a| [[quarkus-maven-plugin-goal-test-systemproperties]]`link:#quarkus-maven-plugin-goal-test-systemproperties[systemProperties]`
 
+
 [.description]
 --
 
@@ -3730,6 +4257,7 @@ a| [[quarkus-maven-plugin-goal-test-systemproperties]]`link:#quarkus-maven-plugi
 
 a| [[quarkus-maven-plugin-goal-test-target]]`link:#quarkus-maven-plugin-goal-test-target[target]`
 
+
 [.description]
 --
 The -target argument to javac.
@@ -3737,7 +4265,18 @@ The -target argument to javac.
 |`${maven.compiler.target}`
 
 
+a| [[quarkus-maven-plugin-goal-test-warnifbuildgoalmissing]]`link:#quarkus-maven-plugin-goal-test-warnifbuildgoalmissing[warnIfBuildGoalMissing]`
+
+
+[.description]
+--
+
+--|boolean 
+|`false`
+
+
 a| [[quarkus-maven-plugin-goal-test-workingdir]]`link:#quarkus-maven-plugin-goal-test-workingdir[workingDir]`
+
 
 [.description]
 --
@@ -3761,6 +4300,7 @@ h|Default
 
 a| [[quarkus-maven-plugin-goal-update-bomartifactid]]`link:#quarkus-maven-plugin-goal-update-bomartifactid[bomArtifactId]`
 
+
 [.description]
 --
 
@@ -3769,6 +4309,7 @@ a| [[quarkus-maven-plugin-goal-update-bomartifactid]]`link:#quarkus-maven-plugin
 
 
 a| [[quarkus-maven-plugin-goal-update-bomgroupid]]`link:#quarkus-maven-plugin-goal-update-bomgroupid[bomGroupId]`
+
 
 [.description]
 --
@@ -3779,6 +4320,7 @@ a| [[quarkus-maven-plugin-goal-update-bomgroupid]]`link:#quarkus-maven-plugin-go
 
 a| [[quarkus-maven-plugin-goal-update-bomversion]]`link:#quarkus-maven-plugin-goal-update-bomversion[bomVersion]`
 
+
 [.description]
 --
 
@@ -3787,6 +4329,7 @@ a| [[quarkus-maven-plugin-goal-update-bomversion]]`link:#quarkus-maven-plugin-go
 
 
 a| [[quarkus-maven-plugin-goal-update-mavensession]]`link:#quarkus-maven-plugin-goal-update-mavensession[mavenSession]`
+
 
 [.description]
 --
@@ -3797,6 +4340,7 @@ a| [[quarkus-maven-plugin-goal-update-mavensession]]`link:#quarkus-maven-plugin-
 
 a| [[quarkus-maven-plugin-goal-update-norewrite]]`link:#quarkus-maven-plugin-goal-update-norewrite[noRewrite]`
 
+
 [.description]
 --
 Disable the rewrite feature.
@@ -3805,6 +4349,7 @@ Disable the rewrite feature.
 
 
 a| [[quarkus-maven-plugin-goal-update-permodule]]`link:#quarkus-maven-plugin-goal-update-permodule[perModule]`
+
 
 [.description]
 --
@@ -3815,6 +4360,7 @@ Display information per project module.
 
 a| [[quarkus-maven-plugin-goal-update-platformversion]]`link:#quarkus-maven-plugin-goal-update-platformversion[platformVersion]`
 
+
 [.description]
 --
 Version of the target platform (e.g: 2.0.0.Final) You may instead use streamId to target the latest version of a specific platform stream.
@@ -3823,6 +4369,7 @@ Version of the target platform (e.g: 2.0.0.Final) You may instead use streamId t
 
 
 a| [[quarkus-maven-plugin-goal-update-project]]`link:#quarkus-maven-plugin-goal-update-project[project]`
+
 
 [.description]
 --
@@ -3833,6 +4380,7 @@ a| [[quarkus-maven-plugin-goal-update-project]]`link:#quarkus-maven-plugin-goal-
 
 a| [[quarkus-maven-plugin-goal-update-reposession]]`link:#quarkus-maven-plugin-goal-update-reposession[repoSession]`
 
+
 [.description]
 --
 
@@ -3841,6 +4389,7 @@ a| [[quarkus-maven-plugin-goal-update-reposession]]`link:#quarkus-maven-plugin-g
 
 
 a| [[quarkus-maven-plugin-goal-update-repos]]`link:#quarkus-maven-plugin-goal-update-repos[repos]`
+
 
 [.description]
 --
@@ -3851,6 +4400,7 @@ a| [[quarkus-maven-plugin-goal-update-repos]]`link:#quarkus-maven-plugin-goal-up
 
 a| [[quarkus-maven-plugin-goal-update-rewritedryrun]]`link:#quarkus-maven-plugin-goal-update-rewritedryrun[rewriteDryRun]`
 
+
 [.description]
 --
 Rewrite in dry-mode.
@@ -3859,6 +4409,7 @@ Rewrite in dry-mode.
 
 
 a| [[quarkus-maven-plugin-goal-update-rewritepluginversion]]`link:#quarkus-maven-plugin-goal-update-rewritepluginversion[rewritePluginVersion]`
+
 
 [.description]
 --
@@ -3869,6 +4420,7 @@ The OpenRewrite plugin version
 
 a| [[quarkus-maven-plugin-goal-update-rewriteupdaterecipesversion]]`link:#quarkus-maven-plugin-goal-update-rewriteupdaterecipesversion[rewriteUpdateRecipesVersion]`
 
+
 [.description]
 --
 The io.quarkus:quarkus-update-recipes version. This artifact contains the base recipes used by this tool to update a project.
@@ -3877,6 +4429,7 @@ The io.quarkus:quarkus-update-recipes version. This artifact contains the base r
 
 
 a| [[quarkus-maven-plugin-goal-update-stream]]`link:#quarkus-maven-plugin-goal-update-stream[stream]`
+
 
 [.description]
 --

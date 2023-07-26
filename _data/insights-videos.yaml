@@ -4,20 +4,50 @@ futureheadline: "Scheduled Podcasts"
 
 futurevideos:
 
-- title: "EPISODE #132: Quarkiverse Extension Spotlight: Quarkus CXF extension"
+- title: "EPISODE #136: Quarkus Component Testing"
   link: 
-  date: "June 21, 2023"
-  authors: "Shumon Sharif and Peter Palaga join us to discuss how the CXF extension is critical for implementing SOAP clients and JAX-WS services."
+  date: "August 7, 2023"
+  authors: "Martin Kouba"
 
-- title: "EPISODE #133: Quarkus + JDK Flight recorder/Cryostat"
+- title: "EPISODE #137: Comparing Native Java REST API Frameworks"
   link: 
-  date: "June 26, 2023"
-  authors: "Andrew Azores & Robert Toyonaga"
+  date: "August 21, 2023"
+  authors: "Matt Raible"
+
+- title: "EPISODE #138: The Quarkus Frontend rainbow. Why is Quarkus the best framework for full stack developers?"
+  link: 
+  date: "September 11, 2023"
+  authors: "Andy Damevin & Stéphane Épardaud"
+
+- title: "EPISODE #140: Quarkus Web Bundler"
+  link: 
+  date: "September 25, 2023"
+  authors: "Andy Damevin & Erik Jan de Wit"
 
 
 pastheadline: "Archived Podcast Videos"
 
 pastvideos:
+
+- title: "EPISODE #135: What’s new in Quarkus’ gRPC?"
+  link: https://youtube.com/live/HTD_1HGI48I
+  date: "July 24, 2023"
+  authors: "Aleš Justin"
+
+- title: "EPISODE #134: Quarkus in the Wild with AXA"
+  link: https://youtube.com/live/JLsZYYnIB-Q
+  date: "July 10, 2023"
+  authors: "Guillaume Thomas"
+
+- title: "EPISODE #133: Quarkus + JDK Flight recorder/Cryostat"
+  link: https://youtube.com/live/HEy-ad4v6dY
+  date: "June 26, 2023"
+  authors: "Andrew Azores & Robert Toyonaga"
+
+- title: "EPISODE #132: Quarkiverse Extension Spotlight: Quarkus CXF extension"
+  link: https://youtube.com/live/dUV-kUrZ5m0
+  date: "June 21, 2023"
+  authors: "Shumon Sharif and Peter Palaga join us to discuss how the CXF extension is critical for implementing SOAP clients and JAX-WS services."
 
 - title: "EPISODE #131: What’s new with Hibernate 6 and Quarkus"
   link: https://youtube.com/live/6lPTwV4mvVU
@@ -471,7 +501,7 @@ pastvideos:
   authors: "Stuart Douglas"
 
 - title: "EPISODE #41: Going to Funqy town"
-  link: https://www.youtube.com/watch?v=qDThVyuAMMk
+  link: https://youtube.com/live/R5texNJH4s4
   date: "March 24, 2021"
   authors: "Bill Burke"
 

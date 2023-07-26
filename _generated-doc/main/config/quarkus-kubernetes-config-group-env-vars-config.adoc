@@ -10,7 +10,42 @@ h|[[quarkus-kubernetes-config-group-env-vars-config_configuration]]link:#quarkus
 h|Type
 h|Default
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.secrets[quarkus.knative.get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.configmaps[quarkus.knative.get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.secrets[quarkus.knative.env.secrets]`
+
 
 [.description]
 --
@@ -28,6 +63,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.configmaps[quarkus.knative.env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -42,7 +78,688 @@ endif::add-copy-button-to-env-var[]
 |
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.fields-fields[quarkus.knative.get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.vars-vars[quarkus.knative.get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.mapping.-mapping-.from-secret[quarkus.knative.get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.mapping.-mapping-.from-configmap[quarkus.knative.get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-env.mapping.-mapping-.with-key[quarkus.knative.get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.secrets[quarkus.knative.get-init-containers."get-init-containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.configmaps[quarkus.knative.get-init-containers."get-init-containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.fields-fields[quarkus.knative.get-init-containers."get-init-containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.vars-vars[quarkus.knative.get-init-containers."get-init-containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-secret[quarkus.knative.get-init-containers."get-init-containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.knative.get-init-containers."get-init-containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.with-key[quarkus.knative.get-init-containers."get-init-containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.secrets[quarkus.knative.get-init-containers."get-init-containers".env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.configmaps[quarkus.knative.get-init-containers."get-init-containers".env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.fields-fields[quarkus.knative.get-init-containers."get-init-containers".env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.vars-vars[quarkus.knative.get-init-containers."get-init-containers".env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-secret[quarkus.knative.get-init-containers."get-init-containers".env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-configmap[quarkus.knative.get-init-containers."get-init-containers".env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-init-containers.-get-init-containers-.env.mapping.-mapping-.with-key[quarkus.knative.get-init-containers."get-init-containers".env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.secrets[quarkus.knative.get-sidecars."get-sidecars".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.configmaps[quarkus.knative.get-sidecars."get-sidecars".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.fields-fields[quarkus.knative.get-sidecars."get-sidecars".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.vars-vars[quarkus.knative.get-sidecars."get-sidecars".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-secret[quarkus.knative.get-sidecars."get-sidecars".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-configmap[quarkus.knative.get-sidecars."get-sidecars".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.with-key[quarkus.knative.get-sidecars."get-sidecars".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.secrets[quarkus.knative.get-sidecars."get-sidecars".env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.configmaps[quarkus.knative.get-sidecars."get-sidecars".env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.fields-fields[quarkus.knative.get-sidecars."get-sidecars".env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.vars-vars[quarkus.knative.get-sidecars."get-sidecars".env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-secret[quarkus.knative.get-sidecars."get-sidecars".env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-configmap[quarkus.knative.get-sidecars."get-sidecars".env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.get-sidecars.-get-sidecars-.env.mapping.-mapping-.with-key[quarkus.knative.get-sidecars."get-sidecars".env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.secrets[quarkus.knative.init-containers."init-containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.configmaps[quarkus.knative.init-containers."init-containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.fields-fields[quarkus.knative.init-containers."init-containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.vars-vars[quarkus.knative.init-containers."init-containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.mapping.-mapping-.from-secret[quarkus.knative.init-containers."init-containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.knative.init-containers."init-containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.get-env.mapping.-mapping-.with-key[quarkus.knative.init-containers."init-containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.secrets[quarkus.knative.init-containers."init-containers".env.secrets]`
+
 
 [.description]
 --
@@ -60,6 +777,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.configmaps[quarkus.knative.init-containers."init-containers".env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -75,6 +793,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.fields-fields[quarkus.knative.init-containers."init-containers".env.fields]`
+
 
 [.description]
 --
@@ -92,6 +811,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.vars-vars[quarkus.knative.init-containers."init-containers".env.vars]`
 
+
 [.description]
 --
 The map associating environment name to its associated value.
@@ -107,6 +827,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.mapping.-mapping-.from-secret[quarkus.knative.init-containers."init-containers".env.mapping."mapping".from-secret]`
+
 
 [.description]
 --
@@ -124,6 +845,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.mapping.-mapping-.from-configmap[quarkus.knative.init-containers."init-containers".env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -140,6 +862,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.init-containers.-init-containers-.env.mapping.-mapping-.with-key[quarkus.knative.init-containers."init-containers".env.mapping."mapping".with-key]`
 
+
 [.description]
 --
 The key identifying the field from which the value is extracted.
@@ -154,7 +877,127 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.secrets[quarkus.knative.containers."containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.configmaps[quarkus.knative.containers."containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.fields-fields[quarkus.knative.containers."containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.vars-vars[quarkus.knative.containers."containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.mapping.-mapping-.from-secret[quarkus.knative.containers."containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.knative.containers."containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.get-env.mapping.-mapping-.with-key[quarkus.knative.containers."containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_CONTAINERS__CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.secrets[quarkus.knative.containers."containers".env.secrets]`
+
 
 [.description]
 --
@@ -172,6 +1015,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.configmaps[quarkus.knative.containers."containers".env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -187,6 +1031,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.fields-fields[quarkus.knative.containers."containers".env.fields]`
+
 
 [.description]
 --
@@ -204,6 +1049,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.vars-vars[quarkus.knative.containers."containers".env.vars]`
 
+
 [.description]
 --
 The map associating environment name to its associated value.
@@ -219,6 +1065,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.mapping.-mapping-.from-secret[quarkus.knative.containers."containers".env.mapping."mapping".from-secret]`
+
 
 [.description]
 --
@@ -236,6 +1083,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.mapping.-mapping-.from-configmap[quarkus.knative.containers."containers".env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -251,6 +1099,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.containers.-containers-.env.mapping.-mapping-.with-key[quarkus.knative.containers."containers".env.mapping."mapping".with-key]`
+
 
 [.description]
 --
@@ -268,6 +1117,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.fields-fields[quarkus.knative.env.fields]`
 
+
 [.description]
 --
 The map associating environment variable names to their associated field references they take their value from.
@@ -283,6 +1133,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.vars-vars[quarkus.knative.env.vars]`
+
 
 [.description]
 --
@@ -300,6 +1151,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.mapping.-mapping-.from-secret[quarkus.knative.env.mapping."mapping".from-secret]`
 
+
 [.description]
 --
 The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
@@ -315,6 +1167,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.mapping.-mapping-.from-configmap[quarkus.knative.env.mapping."mapping".from-configmap]`
+
 
 [.description]
 --
@@ -332,6 +1185,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.knative.env.mapping.-mapping-.with-key[quarkus.knative.env.mapping."mapping".with-key]`
 
+
 [.description]
 --
 The key identifying the field from which the value is extracted.
@@ -346,7 +1200,42 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.secrets[quarkus.kubernetes.get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.configmaps[quarkus.kubernetes.get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.secrets[quarkus.kubernetes.env.secrets]`
+
 
 [.description]
 --
@@ -364,6 +1253,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.configmaps[quarkus.kubernetes.env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -378,7 +1268,688 @@ endif::add-copy-button-to-env-var[]
 |
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.fields-fields[quarkus.kubernetes.get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.vars-vars[quarkus.kubernetes.get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.mapping.-mapping-.from-secret[quarkus.kubernetes.get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.mapping.-mapping-.from-configmap[quarkus.kubernetes.get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-env.mapping.-mapping-.with-key[quarkus.kubernetes.get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.secrets[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.configmaps[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.fields-fields[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.vars-vars[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-secret[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.with-key[quarkus.kubernetes.get-init-containers."get-init-containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.secrets[quarkus.kubernetes.get-init-containers."get-init-containers".env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.configmaps[quarkus.kubernetes.get-init-containers."get-init-containers".env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.fields-fields[quarkus.kubernetes.get-init-containers."get-init-containers".env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.vars-vars[quarkus.kubernetes.get-init-containers."get-init-containers".env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-secret[quarkus.kubernetes.get-init-containers."get-init-containers".env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-configmap[quarkus.kubernetes.get-init-containers."get-init-containers".env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.env.mapping.-mapping-.with-key[quarkus.kubernetes.get-init-containers."get-init-containers".env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.secrets[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.configmaps[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.fields-fields[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.vars-vars[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-secret[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-configmap[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.with-key[quarkus.kubernetes.get-sidecars."get-sidecars".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.secrets[quarkus.kubernetes.get-sidecars."get-sidecars".env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.configmaps[quarkus.kubernetes.get-sidecars."get-sidecars".env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.fields-fields[quarkus.kubernetes.get-sidecars."get-sidecars".env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.vars-vars[quarkus.kubernetes.get-sidecars."get-sidecars".env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-secret[quarkus.kubernetes.get-sidecars."get-sidecars".env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-configmap[quarkus.kubernetes.get-sidecars."get-sidecars".env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.env.mapping.-mapping-.with-key[quarkus.kubernetes.get-sidecars."get-sidecars".env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.secrets[quarkus.kubernetes.init-containers."init-containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.configmaps[quarkus.kubernetes.init-containers."init-containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.fields-fields[quarkus.kubernetes.init-containers."init-containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.vars-vars[quarkus.kubernetes.init-containers."init-containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.mapping.-mapping-.from-secret[quarkus.kubernetes.init-containers."init-containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.kubernetes.init-containers."init-containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.get-env.mapping.-mapping-.with-key[quarkus.kubernetes.init-containers."init-containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.secrets[quarkus.kubernetes.init-containers."init-containers".env.secrets]`
+
 
 [.description]
 --
@@ -396,6 +1967,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.configmaps[quarkus.kubernetes.init-containers."init-containers".env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -411,6 +1983,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.fields-fields[quarkus.kubernetes.init-containers."init-containers".env.fields]`
+
 
 [.description]
 --
@@ -428,6 +2001,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.vars-vars[quarkus.kubernetes.init-containers."init-containers".env.vars]`
 
+
 [.description]
 --
 The map associating environment name to its associated value.
@@ -443,6 +2017,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.mapping.-mapping-.from-secret[quarkus.kubernetes.init-containers."init-containers".env.mapping."mapping".from-secret]`
+
 
 [.description]
 --
@@ -460,6 +2035,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.mapping.-mapping-.from-configmap[quarkus.kubernetes.init-containers."init-containers".env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -476,6 +2052,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.init-containers.-init-containers-.env.mapping.-mapping-.with-key[quarkus.kubernetes.init-containers."init-containers".env.mapping."mapping".with-key]`
 
+
 [.description]
 --
 The key identifying the field from which the value is extracted.
@@ -490,7 +2067,127 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.secrets[quarkus.kubernetes.sidecars."sidecars".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.configmaps[quarkus.kubernetes.sidecars."sidecars".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.fields-fields[quarkus.kubernetes.sidecars."sidecars".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.vars-vars[quarkus.kubernetes.sidecars."sidecars".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.mapping.-mapping-.from-secret[quarkus.kubernetes.sidecars."sidecars".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.mapping.-mapping-.from-configmap[quarkus.kubernetes.sidecars."sidecars".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.get-env.mapping.-mapping-.with-key[quarkus.kubernetes.sidecars."sidecars".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.secrets[quarkus.kubernetes.sidecars."sidecars".env.secrets]`
+
 
 [.description]
 --
@@ -508,6 +2205,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.configmaps[quarkus.kubernetes.sidecars."sidecars".env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -523,6 +2221,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.fields-fields[quarkus.kubernetes.sidecars."sidecars".env.fields]`
+
 
 [.description]
 --
@@ -540,6 +2239,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.vars-vars[quarkus.kubernetes.sidecars."sidecars".env.vars]`
 
+
 [.description]
 --
 The map associating environment name to its associated value.
@@ -555,6 +2255,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.mapping.-mapping-.from-secret[quarkus.kubernetes.sidecars."sidecars".env.mapping."mapping".from-secret]`
+
 
 [.description]
 --
@@ -572,6 +2273,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.mapping.-mapping-.from-configmap[quarkus.kubernetes.sidecars."sidecars".env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -587,6 +2289,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.sidecars.-sidecars-.env.mapping.-mapping-.with-key[quarkus.kubernetes.sidecars."sidecars".env.mapping."mapping".with-key]`
+
 
 [.description]
 --
@@ -604,6 +2307,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.fields-fields[quarkus.kubernetes.env.fields]`
 
+
 [.description]
 --
 The map associating environment variable names to their associated field references they take their value from.
@@ -619,6 +2323,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.vars-vars[quarkus.kubernetes.env.vars]`
+
 
 [.description]
 --
@@ -636,6 +2341,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.mapping.-mapping-.from-secret[quarkus.kubernetes.env.mapping."mapping".from-secret]`
 
+
 [.description]
 --
 The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
@@ -651,6 +2357,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.mapping.-mapping-.from-configmap[quarkus.kubernetes.env.mapping."mapping".from-configmap]`
+
 
 [.description]
 --
@@ -668,6 +2375,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.kubernetes.env.mapping.-mapping-.with-key[quarkus.kubernetes.env.mapping."mapping".with-key]`
 
+
 [.description]
 --
 The key identifying the field from which the value is extracted.
@@ -682,7 +2390,42 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.secrets[quarkus.openshift.get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.configmaps[quarkus.openshift.get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.secrets[quarkus.openshift.env.secrets]`
+
 
 [.description]
 --
@@ -700,6 +2443,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.configmaps[quarkus.openshift.env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -714,7 +2458,688 @@ endif::add-copy-button-to-env-var[]
 |
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.fields-fields[quarkus.openshift.get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.vars-vars[quarkus.openshift.get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.mapping.-mapping-.from-secret[quarkus.openshift.get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.mapping.-mapping-.from-configmap[quarkus.openshift.get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-env.mapping.-mapping-.with-key[quarkus.openshift.get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.secrets[quarkus.openshift.get-init-containers."get-init-containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.configmaps[quarkus.openshift.get-init-containers."get-init-containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.fields-fields[quarkus.openshift.get-init-containers."get-init-containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.vars-vars[quarkus.openshift.get-init-containers."get-init-containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-secret[quarkus.openshift.get-init-containers."get-init-containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.openshift.get-init-containers."get-init-containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.get-env.mapping.-mapping-.with-key[quarkus.openshift.get-init-containers."get-init-containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.secrets[quarkus.openshift.get-init-containers."get-init-containers".env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.configmaps[quarkus.openshift.get-init-containers."get-init-containers".env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.fields-fields[quarkus.openshift.get-init-containers."get-init-containers".env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.vars-vars[quarkus.openshift.get-init-containers."get-init-containers".env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-secret[quarkus.openshift.get-init-containers."get-init-containers".env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.mapping.-mapping-.from-configmap[quarkus.openshift.get-init-containers."get-init-containers".env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-init-containers.-get-init-containers-.env.mapping.-mapping-.with-key[quarkus.openshift.get-init-containers."get-init-containers".env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.secrets[quarkus.openshift.get-sidecars."get-sidecars".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.configmaps[quarkus.openshift.get-sidecars."get-sidecars".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.fields-fields[quarkus.openshift.get-sidecars."get-sidecars".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.vars-vars[quarkus.openshift.get-sidecars."get-sidecars".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-secret[quarkus.openshift.get-sidecars."get-sidecars".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.from-configmap[quarkus.openshift.get-sidecars."get-sidecars".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.get-env.mapping.-mapping-.with-key[quarkus.openshift.get-sidecars."get-sidecars".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.secrets[quarkus.openshift.get-sidecars."get-sidecars".env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.configmaps[quarkus.openshift.get-sidecars."get-sidecars".env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.fields-fields[quarkus.openshift.get-sidecars."get-sidecars".env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.vars-vars[quarkus.openshift.get-sidecars."get-sidecars".env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-secret[quarkus.openshift.get-sidecars."get-sidecars".env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.mapping.-mapping-.from-configmap[quarkus.openshift.get-sidecars."get-sidecars".env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.get-sidecars.-get-sidecars-.env.mapping.-mapping-.with-key[quarkus.openshift.get-sidecars."get-sidecars".env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.secrets[quarkus.openshift.init-containers."init-containers".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.configmaps[quarkus.openshift.init-containers."init-containers".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.fields-fields[quarkus.openshift.init-containers."init-containers".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.vars-vars[quarkus.openshift.init-containers."init-containers".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.mapping.-mapping-.from-secret[quarkus.openshift.init-containers."init-containers".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.mapping.-mapping-.from-configmap[quarkus.openshift.init-containers."init-containers".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.get-env.mapping.-mapping-.with-key[quarkus.openshift.init-containers."init-containers".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_INIT_CONTAINERS__INIT_CONTAINERS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.secrets[quarkus.openshift.init-containers."init-containers".env.secrets]`
+
 
 [.description]
 --
@@ -732,6 +3157,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.configmaps[quarkus.openshift.init-containers."init-containers".env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -747,6 +3173,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.fields-fields[quarkus.openshift.init-containers."init-containers".env.fields]`
+
 
 [.description]
 --
@@ -764,6 +3191,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.vars-vars[quarkus.openshift.init-containers."init-containers".env.vars]`
 
+
 [.description]
 --
 The map associating environment name to its associated value.
@@ -779,6 +3207,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.mapping.-mapping-.from-secret[quarkus.openshift.init-containers."init-containers".env.mapping."mapping".from-secret]`
+
 
 [.description]
 --
@@ -796,6 +3225,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.mapping.-mapping-.from-configmap[quarkus.openshift.init-containers."init-containers".env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -812,6 +3242,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.init-containers.-init-containers-.env.mapping.-mapping-.with-key[quarkus.openshift.init-containers."init-containers".env.mapping."mapping".with-key]`
 
+
 [.description]
 --
 The key identifying the field from which the value is extracted.
@@ -826,7 +3257,127 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.secrets[quarkus.openshift.sidecars."sidecars".get-env.secrets]`
+
+
+[.description]
+--
+The optional list of Secret names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_SECRETS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_SECRETS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.configmaps[quarkus.openshift.sidecars."sidecars".get-env.configmaps]`
+
+
+[.description]
+--
+The optional list of ConfigMap names to load environment variables from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_CONFIGMAPS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_CONFIGMAPS+++`
+endif::add-copy-button-to-env-var[]
+--|list of string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.fields-fields[quarkus.openshift.sidecars."sidecars".get-env.fields]`
+
+
+[.description]
+--
+The map associating environment variable names to their associated field references they take their value from.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_FIELDS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_FIELDS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.vars-vars[quarkus.openshift.sidecars."sidecars".get-env.vars]`
+
+
+[.description]
+--
+The map associating environment name to its associated value.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_VARS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_VARS+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,Optional<String>>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.mapping.-mapping-.from-secret[quarkus.openshift.sidecars."sidecars".get-env.mapping."mapping".from-secret]`
+
+
+[.description]
+--
+The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_SECRET+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.mapping.-mapping-.from-configmap[quarkus.openshift.sidecars."sidecars".get-env.mapping."mapping".from-configmap]`
+
+
+[.description]
+--
+The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__FROM_CONFIGMAP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.get-env.mapping.-mapping-.with-key[quarkus.openshift.sidecars."sidecars".get-env.mapping."mapping".with-key]`
+
+
+[.description]
+--
+The key identifying the field from which the value is extracted.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_SIDECARS__SIDECARS__GET_ENV_MAPPING__MAPPING__WITH_KEY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.secrets]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.secrets[quarkus.openshift.sidecars."sidecars".env.secrets]`
+
 
 [.description]
 --
@@ -844,6 +3395,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.configmaps]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.configmaps[quarkus.openshift.sidecars."sidecars".env.configmaps]`
 
+
 [.description]
 --
 The optional list of ConfigMap names to load environment variables from.
@@ -859,6 +3411,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.fields-fields[quarkus.openshift.sidecars."sidecars".env.fields]`
+
 
 [.description]
 --
@@ -876,6 +3429,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.vars-vars[quarkus.openshift.sidecars."sidecars".env.vars]`
 
+
 [.description]
 --
 The map associating environment name to its associated value.
@@ -891,6 +3445,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.mapping.-mapping-.from-secret[quarkus.openshift.sidecars."sidecars".env.mapping."mapping".from-secret]`
+
 
 [.description]
 --
@@ -908,6 +3463,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.mapping.-mapping-.from-configmap[quarkus.openshift.sidecars."sidecars".env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -923,6 +3479,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.sidecars.-sidecars-.env.mapping.-mapping-.with-key[quarkus.openshift.sidecars."sidecars".env.mapping."mapping".with-key]`
+
 
 [.description]
 --
@@ -940,6 +3497,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.fields-fields]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.fields-fields[quarkus.openshift.env.fields]`
 
+
 [.description]
 --
 The map associating environment variable names to their associated field references they take their value from.
@@ -955,6 +3513,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.vars-vars]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.vars-vars[quarkus.openshift.env.vars]`
+
 
 [.description]
 --
@@ -972,6 +3531,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.mapping.-mapping-.from-secret]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.mapping.-mapping-.from-secret[quarkus.openshift.env.mapping."mapping".from-secret]`
 
+
 [.description]
 --
 The optional name of the Secret from which a value is to be extracted. Mutually exclusive with `from-configmap`.
@@ -988,6 +3548,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.mapping.-mapping-.from-configmap]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.mapping.-mapping-.from-configmap[quarkus.openshift.env.mapping."mapping".from-configmap]`
 
+
 [.description]
 --
 The optional name of the ConfigMap from which a value is to be extracted. Mutually exclusive with `from-secret`.
@@ -1003,6 +3564,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.mapping.-mapping-.with-key]]`link:#quarkus-kubernetes-config-group-env-vars-config_quarkus.openshift.env.mapping.-mapping-.with-key[quarkus.openshift.env.mapping."mapping".with-key]`
+
 
 [.description]
 --

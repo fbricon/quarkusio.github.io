@@ -362,6 +362,38 @@ NOTE: The `event` object represents the transaction ID, and defines `toString()`
 TIP: In listener methods, you can access more information about the transaction in progress by accessing the `TransactionManager`,
 which is a CDI bean and can be ``@Inject``ed.
 
+[[jdbcstore]]
+== Configure storing of Quarkus transaction logs in a database
+
+In cloud environments where persistent storage is not available, such as when application containers are unable to use persistent volumes, you can configure the transaction management to store transaction logs in a database by using a JDBC datasource.
+
+IMPORTANT: While there are several benefits to using a database to store transaction logs, you might notice a reduction in performance compared with using the file system to store the logs.
+
+Quarkus allows the following JDBC-specific configuration of the object store included in `quarkus.transacion-manager.object-store.<property>` properties, where <property> can be:
+
+* `type` (_string_): Configure this property to `jdbc` to enable usage of a Quarkus JDBC datasource for transaction logging.
+The default value is `file-system`.
+* `datasource` (_string_): Specify the name of the datasource for the transaction log storage.
+If no value is provided for the `datasource` property, Quarkus uses the xref:datasource.adoc#configure-datasources[default datasource].
+* `create-table` (_boolean_): When set to `true`, the transaction log table gets automatically created if it does not already exist.
+The default value is `false`.
+* `drop-table` (_boolean_): When set to `true`, the tables are dropped on startup if they already exist.
+The default value is `false`.
+* `table-prefix` (string): Specify the prefix for a related table name.
+The default value is `quarkus_`.
+
+[NOTE]
+====
+To work around the current known issue of link:https://issues.redhat.com/browse/AG-209[Agroal having a different view on running transaction checks], set the datasource transaction type for the datasource responsible for writing the transaction logs to `disabled`:
+
+----
+quarkus.datasource.TX_LOG.jdbc.transactions=disabled
+----
+
+This example uses TX_LOG as the datasource name.
+====
+
+
 == Why always having a transaction manager?
 
 Does it work everywhere I want to?::

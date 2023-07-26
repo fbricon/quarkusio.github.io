@@ -10,7 +10,311 @@ h|[[quarkus-kubernetes-config-group-port-config_configuration]]link:#quarkus-kub
 h|Type
 h|Default
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.container-port[quarkus.knative.get-ports."get-ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.host-port[quarkus.knative.get-ports."get-ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.path[quarkus.knative.get-ports."get-ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.protocol[quarkus.knative.get-ports."get-ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.node-port[quarkus.knative.get-ports."get-ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-ports.-get-ports-.tls[quarkus.knative.get-ports."get-ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_PORTS__GET_PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.container-port[quarkus.knative.get-init-containers."get-init-containers".ports."ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.host-port[quarkus.knative.get-init-containers."get-init-containers".ports."ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.path[quarkus.knative.get-init-containers."get-init-containers".ports."ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.protocol[quarkus.knative.get-init-containers."get-init-containers".ports."ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.node-port[quarkus.knative.get-init-containers."get-init-containers".ports."ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-init-containers.-get-init-containers-.ports.-ports-.tls[quarkus.knative.get-init-containers."get-init-containers".ports."ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.container-port[quarkus.knative.get-sidecars."get-sidecars".ports."ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.host-port[quarkus.knative.get-sidecars."get-sidecars".ports."ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.path[quarkus.knative.get-sidecars."get-sidecars".ports."ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.protocol[quarkus.knative.get-sidecars."get-sidecars".ports."ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.node-port[quarkus.knative.get-sidecars."get-sidecars".ports."ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.get-sidecars.-get-sidecars-.ports.-ports-.tls[quarkus.knative.get-sidecars."get-sidecars".ports."ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.container-port[quarkus.knative.ports."ports".container-port]`
+
 
 [.description]
 --
@@ -28,6 +332,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.host-port[quarkus.knative.ports."ports".host-port]`
 
+
 [.description]
 --
 The host port.
@@ -44,6 +349,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.path[quarkus.knative.ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -59,6 +365,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.protocol[quarkus.knative.ports."ports".protocol]`
+
 
 [.description]
 --
@@ -77,6 +384,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.node-port[quarkus.knative.ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -90,6 +398,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.ports.-ports-.tls[quarkus.knative.ports."ports".tls]`
+
 
 [.description]
 --
@@ -107,6 +416,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.container-port[quarkus.knative.init-containers."init-containers".ports."ports".container-port]`
 
+
 [.description]
 --
 The port number. Refers to the container port.
@@ -122,6 +432,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.host-port[quarkus.knative.init-containers."init-containers".ports."ports".host-port]`
+
 
 [.description]
 --
@@ -139,6 +450,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.path[quarkus.knative.init-containers."init-containers".ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -154,6 +466,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.protocol[quarkus.knative.init-containers."init-containers".ports."ports".protocol]`
+
 
 [.description]
 --
@@ -172,6 +485,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.node-port[quarkus.knative.init-containers."init-containers".ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -185,6 +499,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.init-containers.-init-containers-.ports.-ports-.tls[quarkus.knative.init-containers."init-containers".ports."ports".tls]`
+
 
 [.description]
 --
@@ -202,6 +517,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.container-port[quarkus.knative.containers."containers".ports."ports".container-port]`
 
+
 [.description]
 --
 The port number. Refers to the container port.
@@ -217,6 +533,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.host-port[quarkus.knative.containers."containers".ports."ports".host-port]`
+
 
 [.description]
 --
@@ -234,6 +551,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.path[quarkus.knative.containers."containers".ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -249,6 +567,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.protocol[quarkus.knative.containers."containers".ports."ports".protocol]`
+
 
 [.description]
 --
@@ -267,6 +586,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.node-port[quarkus.knative.containers."containers".ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -280,6 +600,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.knative.containers.-containers-.ports.-ports-.tls[quarkus.knative.containers."containers".ports."ports".tls]`
+
 
 [.description]
 --
@@ -295,7 +616,311 @@ endif::add-copy-button-to-env-var[]
 |`false`
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.container-port[quarkus.kubernetes.get-ports."get-ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.host-port[quarkus.kubernetes.get-ports."get-ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.path[quarkus.kubernetes.get-ports."get-ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.protocol[quarkus.kubernetes.get-ports."get-ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.node-port[quarkus.kubernetes.get-ports."get-ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-ports.-get-ports-.tls[quarkus.kubernetes.get-ports."get-ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_PORTS__GET_PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.container-port[quarkus.kubernetes.get-init-containers."get-init-containers".ports."ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.host-port[quarkus.kubernetes.get-init-containers."get-init-containers".ports."ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.path[quarkus.kubernetes.get-init-containers."get-init-containers".ports."ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.protocol[quarkus.kubernetes.get-init-containers."get-init-containers".ports."ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.node-port[quarkus.kubernetes.get-init-containers."get-init-containers".ports."ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-init-containers.-get-init-containers-.ports.-ports-.tls[quarkus.kubernetes.get-init-containers."get-init-containers".ports."ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.container-port[quarkus.kubernetes.get-sidecars."get-sidecars".ports."ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.host-port[quarkus.kubernetes.get-sidecars."get-sidecars".ports."ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.path[quarkus.kubernetes.get-sidecars."get-sidecars".ports."ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.protocol[quarkus.kubernetes.get-sidecars."get-sidecars".ports."ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.node-port[quarkus.kubernetes.get-sidecars."get-sidecars".ports."ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.get-sidecars.-get-sidecars-.ports.-ports-.tls[quarkus.kubernetes.get-sidecars."get-sidecars".ports."ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.container-port[quarkus.kubernetes.ports."ports".container-port]`
+
 
 [.description]
 --
@@ -313,6 +938,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.host-port[quarkus.kubernetes.ports."ports".host-port]`
 
+
 [.description]
 --
 The host port.
@@ -329,6 +955,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.path[quarkus.kubernetes.ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -344,6 +971,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.protocol[quarkus.kubernetes.ports."ports".protocol]`
+
 
 [.description]
 --
@@ -362,6 +990,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.node-port[quarkus.kubernetes.ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -375,6 +1004,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.ports.-ports-.tls[quarkus.kubernetes.ports."ports".tls]`
+
 
 [.description]
 --
@@ -392,6 +1022,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.container-port[quarkus.kubernetes.init-containers."init-containers".ports."ports".container-port]`
 
+
 [.description]
 --
 The port number. Refers to the container port.
@@ -407,6 +1038,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.host-port[quarkus.kubernetes.init-containers."init-containers".ports."ports".host-port]`
+
 
 [.description]
 --
@@ -424,6 +1056,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.path[quarkus.kubernetes.init-containers."init-containers".ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -439,6 +1072,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.protocol[quarkus.kubernetes.init-containers."init-containers".ports."ports".protocol]`
+
 
 [.description]
 --
@@ -457,6 +1091,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.node-port[quarkus.kubernetes.init-containers."init-containers".ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -470,6 +1105,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.init-containers.-init-containers-.ports.-ports-.tls[quarkus.kubernetes.init-containers."init-containers".ports."ports".tls]`
+
 
 [.description]
 --
@@ -487,6 +1123,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.container-port[quarkus.kubernetes.sidecars."sidecars".ports."ports".container-port]`
 
+
 [.description]
 --
 The port number. Refers to the container port.
@@ -502,6 +1139,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.host-port[quarkus.kubernetes.sidecars."sidecars".ports."ports".host-port]`
+
 
 [.description]
 --
@@ -519,6 +1157,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.path[quarkus.kubernetes.sidecars."sidecars".ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -534,6 +1173,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.protocol[quarkus.kubernetes.sidecars."sidecars".ports."ports".protocol]`
+
 
 [.description]
 --
@@ -552,6 +1192,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.node-port[quarkus.kubernetes.sidecars."sidecars".ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -565,6 +1206,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.kubernetes.sidecars.-sidecars-.ports.-ports-.tls[quarkus.kubernetes.sidecars."sidecars".ports."ports".tls]`
+
 
 [.description]
 --
@@ -580,7 +1222,311 @@ endif::add-copy-button-to-env-var[]
 |`false`
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.container-port[quarkus.openshift.get-ports."get-ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.host-port[quarkus.openshift.get-ports."get-ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.path[quarkus.openshift.get-ports."get-ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.protocol[quarkus.openshift.get-ports."get-ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.node-port[quarkus.openshift.get-ports."get-ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-ports.-get-ports-.tls[quarkus.openshift.get-ports."get-ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_PORTS__GET_PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.container-port[quarkus.openshift.get-init-containers."get-init-containers".ports."ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.host-port[quarkus.openshift.get-init-containers."get-init-containers".ports."ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.path[quarkus.openshift.get-init-containers."get-init-containers".ports."ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.protocol[quarkus.openshift.get-init-containers."get-init-containers".ports."ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.node-port[quarkus.openshift.get-init-containers."get-init-containers".ports."ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-init-containers.-get-init-containers-.ports.-ports-.tls[quarkus.openshift.get-init-containers."get-init-containers".ports."ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_INIT_CONTAINERS__GET_INIT_CONTAINERS__PORTS__PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.container-port[quarkus.openshift.get-sidecars."get-sidecars".ports."ports".container-port]`
+
+
+[.description]
+--
+The port number. Refers to the container port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__CONTAINER_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__CONTAINER_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.host-port[quarkus.openshift.get-sidecars."get-sidecars".ports."ports".host-port]`
+
+
+[.description]
+--
+The host port.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__HOST_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__HOST_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.path[quarkus.openshift.get-sidecars."get-sidecars".ports."ports".path]`
+
+
+[.description]
+--
+The application path (refers to web application path).
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.protocol[quarkus.openshift.get-sidecars."get-sidecars".ports."ports".protocol]`
+
+
+[.description]
+--
+The protocol.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PROTOCOL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__PROTOCOL+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`tcp`, `udp`, `sctp`, `http`, `proxy` 
+|`tcp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.node-port[quarkus.openshift.get-sidecars."get-sidecars".ports."ports".node-port]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__NODE_PORT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__NODE_PORT+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.get-sidecars.-get-sidecars-.ports.-ports-.tls[quarkus.openshift.get-sidecars."get-sidecars".ports."ports".tls]`
+
+
+[.description]
+--
+If enabled, the port will be configured to use the schema HTTPS.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__TLS+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_SIDECARS__GET_SIDECARS__PORTS__PORTS__TLS+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.container-port[quarkus.openshift.ports."ports".container-port]`
+
 
 [.description]
 --
@@ -598,6 +1544,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.host-port[quarkus.openshift.ports."ports".host-port]`
 
+
 [.description]
 --
 The host port.
@@ -614,6 +1561,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.path[quarkus.openshift.ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -629,6 +1577,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.protocol[quarkus.openshift.ports."ports".protocol]`
+
 
 [.description]
 --
@@ -647,6 +1596,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.node-port[quarkus.openshift.ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -660,6 +1610,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.ports.-ports-.tls[quarkus.openshift.ports."ports".tls]`
+
 
 [.description]
 --
@@ -677,6 +1628,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.container-port[quarkus.openshift.init-containers."init-containers".ports."ports".container-port]`
 
+
 [.description]
 --
 The port number. Refers to the container port.
@@ -692,6 +1644,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.host-port[quarkus.openshift.init-containers."init-containers".ports."ports".host-port]`
+
 
 [.description]
 --
@@ -709,6 +1662,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.path[quarkus.openshift.init-containers."init-containers".ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -724,6 +1678,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.protocol[quarkus.openshift.init-containers."init-containers".ports."ports".protocol]`
+
 
 [.description]
 --
@@ -742,6 +1697,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.node-port[quarkus.openshift.init-containers."init-containers".ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -755,6 +1711,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.init-containers.-init-containers-.ports.-ports-.tls[quarkus.openshift.init-containers."init-containers".ports."ports".tls]`
+
 
 [.description]
 --
@@ -772,6 +1729,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.container-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.container-port[quarkus.openshift.sidecars."sidecars".ports."ports".container-port]`
 
+
 [.description]
 --
 The port number. Refers to the container port.
@@ -787,6 +1745,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.host-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.host-port[quarkus.openshift.sidecars."sidecars".ports."ports".host-port]`
+
 
 [.description]
 --
@@ -804,6 +1763,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.path]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.path[quarkus.openshift.sidecars."sidecars".ports."ports".path]`
 
+
 [.description]
 --
 The application path (refers to web application path).
@@ -819,6 +1779,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.protocol]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.protocol[quarkus.openshift.sidecars."sidecars".ports."ports".protocol]`
+
 
 [.description]
 --
@@ -837,6 +1798,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.node-port]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.node-port[quarkus.openshift.sidecars."sidecars".ports."ports".node-port]`
 
+
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
@@ -850,6 +1812,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.tls]]`link:#quarkus-kubernetes-config-group-port-config_quarkus.openshift.sidecars.-sidecars-.ports.-ports-.tls[quarkus.openshift.sidecars."sidecars".ports."ports".tls]`
+
 
 [.description]
 --

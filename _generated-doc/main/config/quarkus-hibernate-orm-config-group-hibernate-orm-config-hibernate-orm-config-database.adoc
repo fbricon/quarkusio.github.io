@@ -12,6 +12,7 @@ h|Default
 
 a|icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm-config-group-hibernate-orm-config-hibernate-orm-config-database_quarkus.hibernate-orm.database.orm-compatibility.version]]`link:#quarkus-hibernate-orm-config-group-hibernate-orm-config-hibernate-orm-config-database_quarkus.hibernate-orm.database.orm-compatibility.version[quarkus.hibernate-orm.database.orm-compatibility.version]`
 
+
 [.description]
 --
 When set, attempts to exchange data with the database
@@ -46,6 +47,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm-config-group-hibernate-orm-config-hibernate-orm-config-database_quarkus.hibernate-orm.database.charset]]`link:#quarkus-hibernate-orm-config-group-hibernate-orm-config-hibernate-orm-config-database_quarkus.hibernate-orm.database.charset[quarkus.hibernate-orm.database.charset]`
+
 
 [.description]
 --

@@ -47,7 +47,7 @@ However, you can go right to the completed example.
 
 Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].
 
-The solution is located in the `amqp-quickstart` {quickstarts-tree-url}/amqp-quickstart[directory].
+The solution is located in the `amqp-quickstart` link:{quickstarts-tree-url}/amqp-quickstart[directory].
 
 == Creating the Maven Project
 
@@ -429,8 +429,8 @@ To run your applications as native, first we need to build the native executable
 
 [source, bash]
 ----
-> mvn -f amqp-quickstart-producer package -Pnative  -Dquarkus.native.container-build=true
-> mvn -f amqp-quickstart-processor package -Pnative -Dquarkus.native.container-build=true
+> mvn -f amqp-quickstart-producer package -Dnative  -Dquarkus.native.container-build=true
+> mvn -f amqp-quickstart-processor package -Dnative -Dquarkus.native.container-build=true
 ----
 
 The `-Dquarkus.native.container-build=true` instructs Quarkus to build Linux 64bits native executables, who can run inside containers.

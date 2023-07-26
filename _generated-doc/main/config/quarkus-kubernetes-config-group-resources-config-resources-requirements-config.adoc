@@ -10,7 +10,76 @@ h|[[quarkus-kubernetes-config-group-resources-config-resources-requirements-conf
 h|Type
 h|Default
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.limits.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.limits.cpu[quarkus.knative.get-resources.limits.cpu]`
+
+
+[.description]
+--
+CPU Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_RESOURCES_LIMITS_CPU+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_RESOURCES_LIMITS_CPU+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.limits.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.limits.memory[quarkus.knative.get-resources.limits.memory]`
+
+
+[.description]
+--
+Memory Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_RESOURCES_LIMITS_MEMORY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_RESOURCES_LIMITS_MEMORY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.requests.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.requests.cpu[quarkus.knative.get-resources.requests.cpu]`
+
+
+[.description]
+--
+CPU Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_RESOURCES_REQUESTS_CPU+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_RESOURCES_REQUESTS_CPU+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.requests.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.get-resources.requests.memory[quarkus.knative.get-resources.requests.memory]`
+
+
+[.description]
+--
+Memory Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KNATIVE_GET_RESOURCES_REQUESTS_MEMORY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KNATIVE_GET_RESOURCES_REQUESTS_MEMORY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.limits.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.limits.cpu[quarkus.knative.resources.limits.cpu]`
+
 
 [.description]
 --
@@ -28,6 +97,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.limits.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.limits.memory[quarkus.knative.resources.limits.memory]`
 
+
 [.description]
 --
 Memory Requirements
@@ -43,6 +113,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.requests.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.requests.cpu[quarkus.knative.resources.requests.cpu]`
+
 
 [.description]
 --
@@ -60,6 +131,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.requests.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.knative.resources.requests.memory[quarkus.knative.resources.requests.memory]`
 
+
 [.description]
 --
 Memory Requirements
@@ -74,7 +146,76 @@ endif::add-copy-button-to-env-var[]
 |
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.limits.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.limits.cpu[quarkus.kubernetes.get-resources.limits.cpu]`
+
+
+[.description]
+--
+CPU Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_RESOURCES_LIMITS_CPU+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_RESOURCES_LIMITS_CPU+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.limits.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.limits.memory[quarkus.kubernetes.get-resources.limits.memory]`
+
+
+[.description]
+--
+Memory Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_RESOURCES_LIMITS_MEMORY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_RESOURCES_LIMITS_MEMORY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.requests.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.requests.cpu[quarkus.kubernetes.get-resources.requests.cpu]`
+
+
+[.description]
+--
+CPU Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_RESOURCES_REQUESTS_CPU+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_RESOURCES_REQUESTS_CPU+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.requests.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.get-resources.requests.memory[quarkus.kubernetes.get-resources.requests.memory]`
+
+
+[.description]
+--
+Memory Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_GET_RESOURCES_REQUESTS_MEMORY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_KUBERNETES_GET_RESOURCES_REQUESTS_MEMORY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.limits.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.limits.cpu[quarkus.kubernetes.resources.limits.cpu]`
+
 
 [.description]
 --
@@ -92,6 +233,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.limits.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.limits.memory[quarkus.kubernetes.resources.limits.memory]`
 
+
 [.description]
 --
 Memory Requirements
@@ -107,6 +249,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.requests.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.requests.cpu[quarkus.kubernetes.resources.requests.cpu]`
+
 
 [.description]
 --
@@ -124,6 +267,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.requests.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.kubernetes.resources.requests.memory[quarkus.kubernetes.resources.requests.memory]`
 
+
 [.description]
 --
 Memory Requirements
@@ -138,7 +282,76 @@ endif::add-copy-button-to-env-var[]
 |
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.limits.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.limits.cpu[quarkus.openshift.get-resources.limits.cpu]`
+
+
+[.description]
+--
+CPU Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_RESOURCES_LIMITS_CPU+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_RESOURCES_LIMITS_CPU+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.limits.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.limits.memory[quarkus.openshift.get-resources.limits.memory]`
+
+
+[.description]
+--
+Memory Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_RESOURCES_LIMITS_MEMORY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_RESOURCES_LIMITS_MEMORY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.requests.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.requests.cpu[quarkus.openshift.get-resources.requests.cpu]`
+
+
+[.description]
+--
+CPU Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_RESOURCES_REQUESTS_CPU+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_RESOURCES_REQUESTS_CPU+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.requests.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.get-resources.requests.memory[quarkus.openshift.get-resources.requests.memory]`
+
+
+[.description]
+--
+Memory Requirements
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_GET_RESOURCES_REQUESTS_MEMORY+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPENSHIFT_GET_RESOURCES_REQUESTS_MEMORY+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.limits.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.limits.cpu[quarkus.openshift.resources.limits.cpu]`
+
 
 [.description]
 --
@@ -156,6 +369,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.limits.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.limits.memory[quarkus.openshift.resources.limits.memory]`
 
+
 [.description]
 --
 Memory Requirements
@@ -172,6 +386,7 @@ endif::add-copy-button-to-env-var[]
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.requests.cpu]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.requests.cpu[quarkus.openshift.resources.requests.cpu]`
 
+
 [.description]
 --
 CPU Requirements
@@ -187,6 +402,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.requests.memory]]`link:#quarkus-kubernetes-config-group-resources-config-resources-requirements-config_quarkus.openshift.resources.requests.memory[quarkus.openshift.resources.requests.memory]`
+
 
 [.description]
 --

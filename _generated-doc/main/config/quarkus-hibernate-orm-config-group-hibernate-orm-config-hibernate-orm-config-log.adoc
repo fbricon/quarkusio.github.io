@@ -12,6 +12,7 @@ h|Default
 
 a|icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm-config-group-hibernate-orm-config-hibernate-orm-config-log_quarkus.hibernate-orm.log.bind-parameters]]`link:#quarkus-hibernate-orm-config-group-hibernate-orm-config-hibernate-orm-config-log_quarkus.hibernate-orm.log.bind-parameters[quarkus.hibernate-orm.log.bind-parameters]`
 
+
 [.description]
 --
 Logs SQL bind parameters.

@@ -10,6 +10,20 @@ h|[[quarkus-micrometer-config-group-config-micrometer-config-export-config_confi
 h|Type
 h|Default
 
+a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.get-enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.get-enabled[quarkus.micrometer.export.json.get-enabled]`
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_JSON_GET_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_MICROMETER_EXPORT_JSON_GET_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.json.enabled[quarkus.micrometer.export.json.enabled]`
 
 [.description]
@@ -75,11 +89,26 @@ endif::add-copy-button-to-env-var[]
 |`P3D`
 
 
+a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.get-enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.get-enabled[quarkus.micrometer.export.prometheus.get-enabled]`
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_GET_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_GET_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|
+
+
 a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.enabled]]`link:#quarkus-micrometer-config-group-config-micrometer-config-export-config_quarkus.micrometer.export.prometheus.enabled[quarkus.micrometer.export.prometheus.enabled]`
 
 [.description]
 --
-Support for export to Prometheus. 
+Support for export to Prometheus.
+
 Support for Prometheus will be enabled if Micrometer support is enabled, the PrometheusMeterRegistry is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.registry-enabled-default` is true.
 
 ifdef::add-copy-button-to-env-var[]
@@ -122,7 +151,8 @@ a|icon:lock[title=Fixed at build time] [[quarkus-micrometer-config-group-config-
 
 [.description]
 --
-By default, this extension will create a Prometheus MeterRegistry instance. 
+By default, this extension will create a Prometheus MeterRegistry instance.
+
 Use this attribute to veto the creation of the default Prometheus MeterRegistry.
 
 ifdef::add-copy-button-to-env-var[]

@@ -42,7 +42,7 @@ However, you can go right to the completed example.
 
 Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].
 
-The solution is located in the `vertx-quickstart` {quickstarts-tree-url}/vertx-quickstart[directory].
+The solution is located in the `vertx-quickstart` link:{quickstarts-tree-url}/vertx-quickstart[directory].
 
 [TIP]
 .Mutiny
@@ -436,12 +436,12 @@ Quarkus provides the `VertxContextSupport#subscribeAndAwait()` method which subs
 ----
 void onStart(@Observes StartupEvent event, Mutiny.SessionFactory sf) {
    VertxContextSupport.subscribeAndAwait(() -> {
-      sf.withTransaction(session -> session.persist(new Person())); 
+      return sf.withTransaction(session -> session.persist(new Person())); 
    });
 }
 ----
 
-NOTE: If it's necessary, the CDI request context is activated during execution of the asynchronous code.
+NOTE: If necessary, the CDI request context is activated during execution of the asynchronous code.
 
 CAUTION: `VertxContextSupport#subscribeAndAwait()` must not be called on an event loop!
 

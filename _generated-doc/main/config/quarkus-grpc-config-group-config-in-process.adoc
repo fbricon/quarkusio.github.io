@@ -10,7 +10,23 @@ h|[[quarkus-grpc-config-group-config-in-process_configuration]]link:#quarkus-grp
 h|Type
 h|Default
 
+a| [[quarkus-grpc-config-group-config-in-process_quarkus.grpc.server.in-process.is-enabled]]`link:#quarkus-grpc-config-group-config-in-process_quarkus.grpc.server.in-process.is-enabled[quarkus.grpc.server.in-process.is-enabled]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_IN_PROCESS_IS_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_GRPC_SERVER_IN_PROCESS_IS_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
 a| [[quarkus-grpc-config-group-config-in-process_quarkus.grpc.server.in-process.enabled]]`link:#quarkus-grpc-config-group-config-in-process_quarkus.grpc.server.in-process.enabled[quarkus.grpc.server.in-process.enabled]`
+
 
 [.description]
 --
@@ -28,6 +44,7 @@ endif::add-copy-button-to-env-var[]
 
 a| [[quarkus-grpc-config-group-config-in-process_quarkus.grpc.server.in-process.name]]`link:#quarkus-grpc-config-group-config-in-process_quarkus.grpc.server.in-process.name[quarkus.grpc.server.in-process.name]`
 
+
 [.description]
 --
 Set in-process name.
@@ -42,7 +59,23 @@ endif::add-copy-button-to-env-var[]
 |`quarkus-grpc`
 
 
+a| [[quarkus-grpc-config-group-config-in-process_quarkus.grpc.clients.-client-name-.in-process.is-enabled]]`link:#quarkus-grpc-config-group-config-in-process_quarkus.grpc.clients.-client-name-.in-process.is-enabled[quarkus.grpc.clients."client-name".in-process.is-enabled]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__IN_PROCESS_IS_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__IN_PROCESS_IS_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
 a| [[quarkus-grpc-config-group-config-in-process_quarkus.grpc.clients.-client-name-.in-process.enabled]]`link:#quarkus-grpc-config-group-config-in-process_quarkus.grpc.clients.-client-name-.in-process.enabled[quarkus.grpc.clients."client-name".in-process.enabled]`
+
 
 [.description]
 --
@@ -59,6 +92,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a| [[quarkus-grpc-config-group-config-in-process_quarkus.grpc.clients.-client-name-.in-process.name]]`link:#quarkus-grpc-config-group-config-in-process_quarkus.grpc.clients.-client-name-.in-process.name[quarkus.grpc.clients."client-name".in-process.name]`
+
 
 [.description]
 --

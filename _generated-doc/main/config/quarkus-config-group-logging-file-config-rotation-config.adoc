@@ -12,9 +12,10 @@ h|Default
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.max-file-size]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.max-file-size[quarkus.log.file.rotation.max-file-size]`
 
+
 [.description]
 --
-The maximum file size of the log file after which a rotation is executed.
+The maximum log file size, after which a rotation is executed.
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_MAX_FILE_SIZE+++[]
@@ -27,6 +28,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.max-backup-index]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.max-backup-index[quarkus.log.file.rotation.max-backup-index]`
+
 
 [.description]
 --
@@ -44,9 +46,10 @@ endif::add-copy-button-to-env-var[]
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.file-suffix]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.file-suffix[quarkus.log.file.rotation.file-suffix]`
 
+
 [.description]
 --
-File handler rotation file suffix. When used, the file will be rotated based on its suffix. Example fileSuffix: .yyyy-MM-dd
+The file handler rotation file suffix. When used, the file will be rotated based on its suffix. Example fileSuffix: .yyyy-MM-dd
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_FILE_SUFFIX+++[]
@@ -59,6 +62,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.rotate-on-boot]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.file.rotation.rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot]`
+
 
 [.description]
 --
@@ -78,9 +82,10 @@ endif::add-copy-button-to-env-var[]
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size[quarkus.log.handler.file."file-handlers".rotation.max-file-size]`
 
+
 [.description]
 --
-The maximum file size of the log file after which a rotation is executed.
+The maximum log file size, after which a rotation is executed.
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_FILE_SIZE+++[]
@@ -93,6 +98,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index[quarkus.log.handler.file."file-handlers".rotation.max-backup-index]`
+
 
 [.description]
 --
@@ -110,9 +116,10 @@ endif::add-copy-button-to-env-var[]
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix[quarkus.log.handler.file."file-handlers".rotation.file-suffix]`
 
+
 [.description]
 --
-File handler rotation file suffix. When used, the file will be rotated based on its suffix. Example fileSuffix: .yyyy-MM-dd
+The file handler rotation file suffix. When used, the file will be rotated based on its suffix. Example fileSuffix: .yyyy-MM-dd
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_FILE_SUFFIX+++[]
@@ -125,6 +132,7 @@ endif::add-copy-button-to-env-var[]
 
 
 a| [[quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot]]`link:#quarkus-config-group-logging-file-config-rotation-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot[quarkus.log.handler.file."file-handlers".rotation.rotate-on-boot]`
+
 
 [.description]
 --

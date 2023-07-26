@@ -30,7 +30,8 @@ a| [[quarkus-vertx-http-config-group-server-ssl-config_quarkus.http.ssl.certific
 
 [.description]
 --
-The credentials provider bean name. 
+The credentials provider bean name.
+
 It is the `&++#++64;Named` value of the credentials provider bean. It is used to discriminate if multiple CredentialsProvider beans are available. It is recommended to set this property even if there is only one credentials provider currently available to ensure the same provider is always found in deployments where more than one provider may be available.
 
 ifdef::add-copy-button-to-env-var[]
@@ -319,7 +320,11 @@ a| [[quarkus-vertx-http-config-group-server-ssl-config_quarkus.http.ssl.protocol
 
 [.description]
 --
-The list of protocols to explicitly enable.
+Sets the ordered list of enabled SSL/TLS protocols.
+
+If not set, it defaults to `"TLSv1.3, TLSv1.2"`. The following list of protocols are supported: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3`. To only enable `TLSv1.3`, set the value to `to "TLSv1.3"`.
+
+Note that setting an empty list, and enabling SSL/TLS is invalid. You must at least have one protocol.
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_SSL_PROTOCOLS+++[]
@@ -367,7 +372,8 @@ a| [[quarkus-vertx-http-config-group-server-ssl-config_quarkus.management.ssl.ce
 
 [.description]
 --
-The credentials provider bean name. 
+The credentials provider bean name.
+
 It is the `&++#++64;Named` value of the credentials provider bean. It is used to discriminate if multiple CredentialsProvider beans are available. It is recommended to set this property even if there is only one credentials provider currently available to ensure the same provider is always found in deployments where more than one provider may be available.
 
 ifdef::add-copy-button-to-env-var[]
@@ -656,7 +662,11 @@ a| [[quarkus-vertx-http-config-group-server-ssl-config_quarkus.management.ssl.pr
 
 [.description]
 --
-The list of protocols to explicitly enable.
+Sets the ordered list of enabled SSL/TLS protocols.
+
+If not set, it defaults to `"TLSv1.3, TLSv1.2"`. The following list of protocols are supported: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3`. To only enable `TLSv1.3`, set the value to `to "TLSv1.3"`.
+
+Note that setting an empty list, and enabling SSL/TLS is invalid. You must at least have one protocol.
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++QUARKUS_MANAGEMENT_SSL_PROTOCOLS+++[]

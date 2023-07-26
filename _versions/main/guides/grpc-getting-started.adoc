@@ -21,7 +21,7 @@ However, you can go right to the completed example.
 
 Clone the Git repository: `git clone {quickstarts-clone-url}`, or download an {quickstarts-archive-url}[archive].
 
-The solution is located in the `grpc-plain-text-quickstart` {quickstarts-tree-url}/grpc-plain-text-quickstart[directory].
+The solution is located in the `grpc-plain-text-quickstart` link:{quickstarts-tree-url}/grpc-plain-text-quickstart[directory].
 
 == Configuring your project
 
@@ -368,7 +368,7 @@ Then, open http://localhost:8080/hello/quarkus in a browser, and you should get 
 == Packaging the application
 
 Like any other Quarkus applications, you can package it with: `mvn package`.
-You can also package the application into a native executable with: `mvn package -Pnative`.
+You can also package the application into a native executable with: `mvn package -Dnative`.
 
 [[protobuf-maven-plugin]]
 == Generating Java files from proto with protobuf-maven-plugin
